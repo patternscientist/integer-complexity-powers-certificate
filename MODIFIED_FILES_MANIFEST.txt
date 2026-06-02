@@ -1,0 +1,34 @@
+Inspection zip contents:
+
+- .gitignore
+- .gitattributes
+- README.md
+- AUDIT.md
+- AUDIT_CHECKLIST.md
+- MODIFIED_FILES_MANIFEST.txt
+- REDUCTION_NOTE.md
+- artifact_hashes/*.sha256
+- docs/LARGE_ARTIFACTS.md
+- lowdefect_certificate/*.py
+- native/verify_near_powers.cpp
+- scripts/*.py
+- tests/test_certificate_pipeline.py
+- vendor/lowdefect/TernaryFamilies.hs
+- vendor/lowdefect/export_covering.hs
+- vendor/lowdefect/export_range.hs
+- vendor/lowdefect/profile_covering.hs
+- vendor/lowdefect/verify_near_powers.hs
+- artifacts/near_power_report.json
+- artifacts/near_power_report.md
+- artifacts/reference_compare.json
+- artifacts/verifier_self_check_S10.json
+- artifacts/near_power_report_native_fresh.json
+- artifacts/checkpoints/metrics_35_35.jsonl
+- artifacts/checkpoints/metrics_36_46.jsonl
+
+Large generated covering artifacts are not included in the zip:
+
+- artifacts/S_46.json
+- artifacts/checkpoints/S_35.json through S_46.json
+
+They remain in the workspace for reproduction and inspection.

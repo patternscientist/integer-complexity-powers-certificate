@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.hi
+*.o
+*.exe
+build/
+*.prof
+*.hp
+native/verify_near_powers
+
+# Local scratch artifacts and unrelated earlier frontier experiments.
+frontier_report_*.md
+frontier_results_*.json
+integer_complexity_frontier.py
+lowdefect.tar.gz
+artifacts/S_10.json
+artifacts/S_33.json
+artifacts/S_34.json
+artifacts/lowdefect_46_raw.txt
+artifacts/profile_*.jsonl
+artifacts/*verify_S*.json
+artifacts/near_power_report_S*.json
+artifacts/near_power_report_S*.md
+artifacts/modified_files_inspection*.zip
+artifacts/reference_compare/

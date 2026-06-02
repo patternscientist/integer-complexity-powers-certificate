@@ -1,0 +1,561 @@
+{
+  "covering": "C:\\Users\\poin\\Documents\\New project\\artifacts\\S_10.json",
+  "native_backend": "native_cpp_streaming",
+  "native_certificate_succeeded": false,
+  "native_pair_count": 25,
+  "native_report": {
+    "all_excluded": true,
+    "backend": "native_cpp_streaming",
+    "cases": [
+      {
+        "N": 562949953421311,
+        "b": 1,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 562949953421306,
+        "b": 6,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 562949953421304,
+        "b": 8,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 562949953421303,
+        "b": 9,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842623,
+        "b": 1,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842618,
+        "b": 6,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842616,
+        "b": 8,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842615,
+        "b": 9,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685247,
+        "b": 1,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685242,
+        "b": 6,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685240,
+        "b": 8,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685239,
+        "b": 9,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370495,
+        "b": 1,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370490,
+        "b": 6,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370488,
+        "b": 8,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370487,
+        "b": 9,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740991,
+        "b": 1,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740986,
+        "b": 6,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740984,
+        "b": 8,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740983,
+        "b": 9,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481983,
+        "b": 1,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481978,
+        "b": 6,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481976,
+        "b": 8,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481975,
+        "b": 9,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963967,
+        "b": 1,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963962,
+        "b": 6,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963960,
+        "b": 8,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963959,
+        "b": 9,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927935,
+        "b": 1,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927930,
+        "b": 6,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927928,
+        "b": 8,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927927,
+        "b": 9,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      }
+    ],
+    "certificate_succeeded": false,
+    "covering_path": "C:\\Users\\poin\\Documents\\New project\\artifacts\\S_10.json",
+    "declared_pair_count": 25,
+    "degree_histogram": {
+      "0": 24,
+      "1": 1
+    },
+    "max_degree": 1,
+    "pair_count": 25,
+    "pair_count_matches_declared": true,
+    "survivors_empty": true,
+    "target_count": 32,
+    "threshold_multiple": 10
+  },
+  "normalized_reports_equal": true,
+  "normalized_sha256": "aa1f1efcf6defcc304eddd5a1832912f66ffc54807ee66b53ef86292d0ee2948",
+  "python_certificate_succeeded": false,
+  "python_pair_count": 25,
+  "python_report": {
+    "all_excluded": true,
+    "cases": [
+      {
+        "N": 562949953421311,
+        "b": 1,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 562949953421306,
+        "b": 6,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 562949953421304,
+        "b": 8,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 562949953421303,
+        "b": 9,
+        "complexity_bound": 96,
+        "excluded": true,
+        "m": 49,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842623,
+        "b": 1,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842618,
+        "b": 6,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842616,
+        "b": 8,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 1125899906842615,
+        "b": 9,
+        "complexity_bound": 98,
+        "excluded": true,
+        "m": 50,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685247,
+        "b": 1,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685242,
+        "b": 6,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685240,
+        "b": 8,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 2251799813685239,
+        "b": 9,
+        "complexity_bound": 100,
+        "excluded": true,
+        "m": 51,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370495,
+        "b": 1,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370490,
+        "b": 6,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370488,
+        "b": 8,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 4503599627370487,
+        "b": 9,
+        "complexity_bound": 102,
+        "excluded": true,
+        "m": 52,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740991,
+        "b": 1,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740986,
+        "b": 6,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740984,
+        "b": 8,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 9007199254740983,
+        "b": 9,
+        "complexity_bound": 104,
+        "excluded": true,
+        "m": 53,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481983,
+        "b": 1,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481978,
+        "b": 6,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481976,
+        "b": 8,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 18014398509481975,
+        "b": 9,
+        "complexity_bound": 106,
+        "excluded": true,
+        "m": 54,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963967,
+        "b": 1,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963962,
+        "b": 6,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963960,
+        "b": 8,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 36028797018963959,
+        "b": 9,
+        "complexity_bound": 108,
+        "excluded": true,
+        "m": 55,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927935,
+        "b": 1,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927930,
+        "b": 6,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927928,
+        "b": 8,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      },
+      {
+        "N": 72057594037927927,
+        "b": 9,
+        "complexity_bound": 110,
+        "excluded": true,
+        "m": 56,
+        "survivors": []
+      }
+    ],
+    "certificate_succeeded": false,
+    "covering_path": "C:\\Users\\poin\\Documents\\New project\\artifacts\\S_10.json",
+    "declared_pair_count": 25,
+    "degree_histogram": {
+      "0": 24,
+      "1": 1
+    },
+    "max_degree": 1,
+    "pair_count": 25,
+    "pair_count_matches_declared": true,
+    "survivors_empty": true,
+    "target_count": 32,
+    "threshold_multiple": 10
+  },
+  "self_check": "native_vs_python_exact",
+  "threshold": 10
+}
