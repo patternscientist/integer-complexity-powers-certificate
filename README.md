@@ -13,7 +13,35 @@ low-defect/root-addition reduction to certify the power-of-two range through
 positive exponents `m <= 56`. See [REDUCTION_NOTE.md](REDUCTION_NOTE.md) for
 the exact implication and scope.
 
-## What Is Claimed
+## Claim Scope
+
+This repository's computational certificate proves the 32 near-power
+exclusions
+
+```text
+||2^m - b|| >= 2m - 1
+49 <= m <= 56
+b in {1, 6, 8, 9}
+```
+
+relative to the generated good covering `S_46` of `B_{46 delta(2)}`.
+
+The statement
+
+```text
+||2^m|| = 2m for all m <= 56
+```
+
+follows only after combining this certificate with:
+
+- the public Altman theorem `||2^k 3^l|| = 2k + 3l` for `k <= 48`;
+- the reduction in [REDUCTION_NOTE.md](REDUCTION_NOTE.md), including the
+  low-defect/root-addition and solid-correction inputs.
+
+This repository does not independently reprove the general low-defect
+machinery.
+
+## Computational Certificate
 
 The repository records a generated certificate:
 

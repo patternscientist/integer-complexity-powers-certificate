@@ -3,6 +3,22 @@
 This note distinguishes Altman's original implementation from local changes
 made for reproducible export and verification.
 
+## Scope And Audit Status
+
+The computational certificate is accepted/provisionally reproducible from this
+repository when `artifacts/S_46.json` is present, matches its recorded SHA256,
+and the native verifier rerun reports `certificate_succeeded=True`.
+
+The full mathematical conclusion `||2^m|| = 2m` for `m <= 56` also depends on
+the inputs stated in [REDUCTION_NOTE.md](REDUCTION_NOTE.md): the public
+`k <= 48` theorem and the low-defect/root-addition plus solid-correction
+reduction. This repository audits the generated `S_46` certificate and
+verifiers; it does not independently reprove that external framework.
+
+The remaining final external audit step is an independent rerun from a fresh
+clone with Git LFS enabled, followed by hash verification and the native
+verifier command in [AUDIT_CHECKLIST.md](AUDIT_CHECKLIST.md).
+
 ## Final Certificate Summary
 
 The final certificate artifact is:

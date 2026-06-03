@@ -2,6 +2,38 @@
 
 Run commands from the repository root.
 
+## 0. Fresh Clone Audit
+
+Unix-like shell:
+
+```sh
+git clone https://github.com/patternscientist/integer-complexity-powers-certificate.git
+cd integer-complexity-powers-certificate
+git lfs install
+git lfs pull
+sha256sum -c artifact_hashes/S_46.json.sha256
+python -m unittest discover -s tests -v
+g++ -O2 -std=c++14 native/verify_near_powers.cpp -o native/verify_near_powers
+./native/verify_near_powers artifacts/S_46.json artifacts/near_power_report_native_fresh.json
+```
+
+PowerShell equivalents:
+
+```powershell
+git clone https://github.com/patternscientist/integer-complexity-powers-certificate.git
+Set-Location integer-complexity-powers-certificate
+git lfs install
+git lfs pull
+Get-FileHash artifacts\S_46.json -Algorithm SHA256
+Get-Content artifact_hashes\S_46.json.sha256
+python -m unittest discover -s tests -v
+g++ -O2 -std=c++14 native/verify_near_powers.cpp -o native/verify_near_powers.exe
+.\native\verify_near_powers.exe artifacts\S_46.json artifacts\near_power_report_native_fresh.json
+```
+
+The SHA256 printed by `Get-FileHash` must match the first field in
+`artifact_hashes\S_46.json.sha256`.
+
 ## 1. Check Required Artifacts
 
 ```powershell
