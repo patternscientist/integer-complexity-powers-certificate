@@ -1,0 +1,3782 @@
+{
+  "equation_class_counts": {
+    "bilinear": 86382,
+    "higher_multilinear": 162377,
+    "linear": 9377
+  },
+  "groupings": {
+    "by_base_complexity_bucket": {
+      "C000_009": {
+        "count": 438,
+        "degree_counts": {
+          "1": 3,
+          "2": 44,
+          "3": 239,
+          "4": 152
+        },
+        "equation_class_counts": {
+          "bilinear": 44,
+          "higher_multilinear": 391,
+          "linear": 3
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 31.0,
+          "min": 29
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 10416.0,
+          "min": 34
+        }
+      },
+      "C010_019": {
+        "count": 41429,
+        "degree_counts": {
+          "1": 55,
+          "2": 1826,
+          "3": 14809,
+          "4": 24739
+        },
+        "equation_class_counts": {
+          "bilinear": 1826,
+          "higher_multilinear": 39548,
+          "linear": 55
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 29,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "((((7)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((8)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((10)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 31465,
+          "min": 27
+        }
+      },
+      "C020_029": {
+        "count": 121528,
+        "degree_counts": {
+          "1": 727,
+          "2": 25819,
+          "3": 79305,
+          "4": 15677
+        },
+        "equation_class_counts": {
+          "bilinear": 25819,
+          "higher_multilinear": 94982,
+          "linear": 727
+        },
+        "exponent_sum_bound": {
+          "max": 30,
+          "median": 26.0,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((((256)3^_+1)3^_+1)3^_+1)3^_+1",
+          "(((3((128)3^_+1))3^_+1)3^_+1)3^_+1",
+          "(((3((256)3^_+1))3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 139056,
+          "median": 4060.0,
+          "min": 23
+        }
+      },
+      "C030_039": {
+        "count": 78922,
+        "degree_counts": {
+          "1": 3910,
+          "2": 48148,
+          "3": 26864
+        },
+        "equation_class_counts": {
+          "bilinear": 48148,
+          "higher_multilinear": 26864,
+          "linear": 3910
+        },
+        "exponent_sum_bound": {
+          "max": 26,
+          "median": 23.0,
+          "min": 19
+        },
+        "representative_polynomials": [
+          "(((9729)3^_+1)3^_+1)3^_+1",
+          "(((9765)3^_+1)3^_+1)3^_+1",
+          "(((10215)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 13125,
+          "median": 676.0,
+          "min": 20
+        }
+      },
+      "C040_049": {
+        "count": 14856,
+        "degree_counts": {
+          "1": 3828,
+          "2": 10436,
+          "3": 592
+        },
+        "equation_class_counts": {
+          "bilinear": 10436,
+          "higher_multilinear": 592,
+          "linear": 3828
+        },
+        "exponent_sum_bound": {
+          "max": 23,
+          "median": 21.0,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((3((131072)3^_+1))3^_+1)3^_+1",
+          "((3((262144)3^_+1))3^_+1)3^_+1",
+          "((393219)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 8965,
+          "median": 276.0,
+          "min": 17
+        }
+      },
+      "C050_059": {
+        "count": 929,
+        "degree_counts": {
+          "1": 820,
+          "2": 109
+        },
+        "equation_class_counts": {
+          "bilinear": 109,
+          "linear": 820
+        },
+        "exponent_sum_bound": {
+          "max": 20,
+          "median": 18,
+          "min": 13
+        },
+        "representative_polynomials": [
+          "((14921193)3^_+1)3^_+1",
+          "((44743125)3^_+1)3^_+1",
+          "((14917784)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 770,
+          "median": 35,
+          "min": 15
+        }
+      },
+      "C060_069": {
+        "count": 34,
+        "degree_counts": {
+          "1": 34
+        },
+        "equation_class_counts": {
+          "linear": 34
+        },
+        "exponent_sum_bound": {
+          "max": 16,
+          "median": 16.0,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "(616638750)3^_+1",
+          "(618524430)3^_+1",
+          "(618736974)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 70,
+          "median": 31.0,
+          "min": 16
+        }
+      }
+    },
+    "by_degree": {
+      "1": {
+        "count": 9377,
+        "degree_counts": {
+          "1": 9377
+        },
+        "equation_class_counts": {
+          "linear": 9377
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 22,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "(7)3^_+1",
+          "(10)3^_+1",
+          "(14)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 140,
+          "median": 28,
+          "min": 15
+        }
+      },
+      "2": {
+        "count": 86382,
+        "degree_counts": {
+          "2": 86382
+        },
+        "equation_class_counts": {
+          "bilinear": 86382
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 24.0,
+          "min": 13
+        },
+        "representative_polynomials": [
+          "((1)3^_+1)3^_+1",
+          "((3)3^_+1)3^_+1",
+          "((2)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 2485,
+          "median": 441.0,
+          "min": 120
+        }
+      },
+      "3": {
+        "count": 121809,
+        "degree_counts": {
+          "3": 121809
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 121809
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 26,
+          "min": 17
+        },
+        "representative_polynomials": [
+          "(((1)3^_+1)3^_+1)3^_+1",
+          "(((3)3^_+1)3^_+1)3^_+1",
+          "(((2)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4495,
+          "min": 1140
+        }
+      },
+      "4": {
+        "count": 40568,
+        "degree_counts": {
+          "4": 40568
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 40568
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 28.0,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 44226.0,
+          "min": 14950
+        }
+      }
+    },
+    "by_exponent_sum_bound": {
+      "12": {
+        "count": 2,
+        "degree_counts": {
+          "1": 2
+        },
+        "equation_class_counts": {
+          "linear": 2
+        },
+        "exponent_sum_bound": {
+          "max": 12,
+          "median": 12.0,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "4((167480475)3^_+1)",
+          "8((313178012)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 36,
+          "median": 30.5,
+          "min": 25
+        }
+      },
+      "13": {
+        "count": 8,
+        "degree_counts": {
+          "1": 6,
+          "2": 2
+        },
+        "equation_class_counts": {
+          "bilinear": 2,
+          "linear": 6
+        },
+        "exponent_sum_bound": {
+          "max": 13,
+          "median": 13.0,
+          "min": 13
+        },
+        "representative_polynomials": [
+          "(202541493)3^_+1",
+          "4((3)3^_+1)((8388608)3^_+1)",
+          "4((55826835)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 196,
+          "median": 27.0,
+          "min": 27
+        }
+      },
+      "14": {
+        "count": 26,
+        "degree_counts": {
+          "1": 17,
+          "2": 9
+        },
+        "equation_class_counts": {
+          "bilinear": 9,
+          "linear": 17
+        },
+        "exponent_sum_bound": {
+          "max": 14,
+          "median": 14.0,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "((44743125)3^_+1)3^_+1",
+          "(2((67109574)3^_+1))3^_+1",
+          "(22369858((2)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 225,
+          "median": 29.0,
+          "min": 15
+        }
+      },
+      "15": {
+        "count": 70,
+        "degree_counts": {
+          "1": 51,
+          "2": 19
+        },
+        "equation_class_counts": {
+          "bilinear": 19,
+          "linear": 51
+        },
+        "exponent_sum_bound": {
+          "max": 15,
+          "median": 15.0,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((14921193)3^_+1)3^_+1",
+          "((67109574)3^_+1)3^_+1",
+          "(2((22376676)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 256,
+          "median": 31.0,
+          "min": 16
+        }
+      },
+      "16": {
+        "count": 183,
+        "degree_counts": {
+          "1": 103,
+          "2": 80
+        },
+        "equation_class_counts": {
+          "bilinear": 80,
+          "linear": 103
+        },
+        "exponent_sum_bound": {
+          "max": 16,
+          "median": 16,
+          "min": 16
+        },
+        "representative_polynomials": [
+          "((4980549)3^_+1)3^_+1",
+          "((7605120)3^_+1)3^_+1",
+          "((5059586)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 605,
+          "median": 48,
+          "min": 17
+        }
+      },
+      "17": {
+        "count": 667,
+        "degree_counts": {
+          "1": 238,
+          "2": 423,
+          "3": 6
+        },
+        "equation_class_counts": {
+          "bilinear": 423,
+          "higher_multilinear": 6,
+          "linear": 238
+        },
+        "exponent_sum_bound": {
+          "max": 17,
+          "median": 17,
+          "min": 17
+        },
+        "representative_polynomials": [
+          "((1667001)3^_+1)3^_+1",
+          "((1741830)3^_+1)3^_+1",
+          "((1745340)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 2109,
+          "median": 171,
+          "min": 18
+        }
+      },
+      "18": {
+        "count": 1657,
+        "degree_counts": {
+          "1": 424,
+          "2": 1139,
+          "3": 94
+        },
+        "equation_class_counts": {
+          "bilinear": 1139,
+          "higher_multilinear": 94,
+          "linear": 424
+        },
+        "exponent_sum_bound": {
+          "max": 18,
+          "median": 18,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "((3((131072)3^_+1))3^_+1)3^_+1",
+          "((653247)3^_+1)3^_+1",
+          "((918603)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 3439,
+          "median": 190,
+          "min": 19
+        }
+      },
+      "19": {
+        "count": 3578,
+        "degree_counts": {
+          "1": 670,
+          "2": 2528,
+          "3": 380
+        },
+        "equation_class_counts": {
+          "bilinear": 2528,
+          "higher_multilinear": 380,
+          "linear": 670
+        },
+        "exponent_sum_bound": {
+          "max": 19,
+          "median": 19.0,
+          "min": 19
+        },
+        "representative_polynomials": [
+          "(((131072)3^_+1)3^_+1)3^_+1",
+          "((3((41984)3^_+1))3^_+1)3^_+1",
+          "((3((131072)3^_+1))3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 4010,
+          "median": 210.0,
+          "min": 20
+        }
+      },
+      "20": {
+        "count": 6601,
+        "degree_counts": {
+          "1": 1034,
+          "2": 4561,
+          "3": 1006
+        },
+        "equation_class_counts": {
+          "bilinear": 4561,
+          "higher_multilinear": 1006,
+          "linear": 1034
+        },
+        "exponent_sum_bound": {
+          "max": 20,
+          "median": 20,
+          "min": 20
+        },
+        "representative_polynomials": [
+          "(((61299)3^_+1)3^_+1)3^_+1",
+          "(((41984)3^_+1)3^_+1)3^_+1",
+          "(((131072)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 4641,
+          "median": 441,
+          "min": 21
+        }
+      },
+      "21": {
+        "count": 11888,
+        "degree_counts": {
+          "1": 1292,
+          "2": 7434,
+          "3": 3162
+        },
+        "equation_class_counts": {
+          "bilinear": 7434,
+          "higher_multilinear": 3162,
+          "linear": 1292
+        },
+        "exponent_sum_bound": {
+          "max": 21,
+          "median": 21.0,
+          "min": 21
+        },
+        "representative_polynomials": [
+          "(((20475)3^_+1)3^_+1)3^_+1",
+          "(((30681)3^_+1)3^_+1)3^_+1",
+          "(((15558)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 7805,
+          "median": 484.0,
+          "min": 22
+        }
+      },
+      "22": {
+        "count": 18854,
+        "degree_counts": {
+          "1": 1480,
+          "2": 10787,
+          "3": 6583,
+          "4": 4
+        },
+        "equation_class_counts": {
+          "bilinear": 10787,
+          "higher_multilinear": 6587,
+          "linear": 1480
+        },
+        "exponent_sum_bound": {
+          "max": 22,
+          "median": 22.0,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "(((6867)3^_+1)3^_+1)3^_+1",
+          "(((10269)3^_+1)3^_+1)3^_+1",
+          "(((5190)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27600,
+          "median": 529.0,
+          "min": 23
+        }
+      },
+      "23": {
+        "count": 25677,
+        "degree_counts": {
+          "1": 1428,
+          "2": 13009,
+          "3": 11137,
+          "4": 103
+        },
+        "equation_class_counts": {
+          "bilinear": 13009,
+          "higher_multilinear": 11240,
+          "linear": 1428
+        },
+        "exponent_sum_bound": {
+          "max": 23,
+          "median": 23,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "(((1626)3^_+1)3^_+1)3^_+1",
+          "(((1734)3^_+1)3^_+1)3^_+1",
+          "(((1950)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 45150,
+          "median": 829,
+          "min": 24
+        }
+      },
+      "24": {
+        "count": 31595,
+        "degree_counts": {
+          "1": 1118,
+          "2": 13449,
+          "3": 16039,
+          "4": 989
+        },
+        "equation_class_counts": {
+          "bilinear": 13449,
+          "higher_multilinear": 17028,
+          "linear": 1118
+        },
+        "exponent_sum_bound": {
+          "max": 24,
+          "median": 24,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "(((654)3^_+1)3^_+1)3^_+1",
+          "(((870)3^_+1)3^_+1)3^_+1",
+          "(((978)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 52975,
+          "median": 2925,
+          "min": 25
+        }
+      },
+      "25": {
+        "count": 35154,
+        "degree_counts": {
+          "1": 729,
+          "2": 11950,
+          "3": 19242,
+          "4": 3233
+        },
+        "equation_class_counts": {
+          "bilinear": 11950,
+          "higher_multilinear": 22475,
+          "linear": 729
+        },
+        "exponent_sum_bound": {
+          "max": 25,
+          "median": 25.0,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "((((256)3^_+1)3^_+1)3^_+1)3^_+1",
+          "(((3((128)3^_+1))3^_+1)3^_+1)3^_+1",
+          "(((3((256)3^_+1))3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 61776,
+          "median": 3276.0,
+          "min": 26
+        }
+      },
+      "26": {
+        "count": 35055,
+        "degree_counts": {
+          "1": 399,
+          "2": 9218,
+          "3": 19720,
+          "4": 5718
+        },
+        "equation_class_counts": {
+          "bilinear": 9218,
+          "higher_multilinear": 25438,
+          "linear": 399
+        },
+        "exponent_sum_bound": {
+          "max": 26,
+          "median": 26,
+          "min": 26
+        },
+        "representative_polynomials": [
+          "((((64)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((128)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((256)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 104131,
+          "median": 3654,
+          "min": 27
+        }
+      },
+      "27": {
+        "count": 31058,
+        "degree_counts": {
+          "1": 202,
+          "2": 6071,
+          "3": 17607,
+          "4": 7178
+        },
+        "equation_class_counts": {
+          "bilinear": 6071,
+          "higher_multilinear": 24785,
+          "linear": 202
+        },
+        "exponent_sum_bound": {
+          "max": 27,
+          "median": 27.0,
+          "min": 27
+        },
+        "representative_polynomials": [
+          "((((20)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((28)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((32)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 120646,
+          "median": 4060.0,
+          "min": 28
+        }
+      },
+      "28": {
+        "count": 24249,
+        "degree_counts": {
+          "1": 102,
+          "2": 3312,
+          "3": 13272,
+          "4": 7563
+        },
+        "equation_class_counts": {
+          "bilinear": 3312,
+          "higher_multilinear": 20835,
+          "linear": 102
+        },
+        "exponent_sum_bound": {
+          "max": 28,
+          "median": 28,
+          "min": 28
+        },
+        "representative_polynomials": [
+          "((((7)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((8)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((10)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 139056,
+          "median": 8555,
+          "min": 29
+        }
+      },
+      "29": {
+        "count": 16497,
+        "degree_counts": {
+          "1": 55,
+          "2": 1527,
+          "3": 7995,
+          "4": 6920
+        },
+        "equation_class_counts": {
+          "bilinear": 1527,
+          "higher_multilinear": 14915,
+          "linear": 55
+        },
+        "exponent_sum_bound": {
+          "max": 29,
+          "median": 29,
+          "min": 29
+        },
+        "representative_polynomials": [
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((10)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 9455,
+          "min": 30
+        }
+      },
+      "30": {
+        "count": 9666,
+        "degree_counts": {
+          "1": 17,
+          "2": 582,
+          "3": 3658,
+          "4": 5409
+        },
+        "equation_class_counts": {
+          "bilinear": 582,
+          "higher_multilinear": 9067,
+          "linear": 17
+        },
+        "exponent_sum_bound": {
+          "max": 30,
+          "median": 30.0,
+          "min": 30
+        },
+        "representative_polynomials": [
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((8)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 46376.0,
+          "min": 31
+        }
+      },
+      "31": {
+        "count": 4158,
+        "degree_counts": {
+          "1": 5,
+          "2": 198,
+          "3": 1361,
+          "4": 2594
+        },
+        "equation_class_counts": {
+          "bilinear": 198,
+          "higher_multilinear": 3955,
+          "linear": 5
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 31.0,
+          "min": 31
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 52360.0,
+          "min": 32
+        }
+      },
+      "32": {
+        "count": 1241,
+        "degree_counts": {
+          "1": 2,
+          "2": 58,
+          "3": 426,
+          "4": 755
+        },
+        "equation_class_counts": {
+          "bilinear": 58,
+          "higher_multilinear": 1181,
+          "linear": 2
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 32,
+          "min": 32
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 58905,
+          "min": 33
+        }
+      },
+      "33": {
+        "count": 211,
+        "degree_counts": {
+          "1": 2,
+          "2": 16,
+          "3": 98,
+          "4": 95
+        },
+        "equation_class_counts": {
+          "bilinear": 16,
+          "higher_multilinear": 193,
+          "linear": 2
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 33,
+          "min": 33
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 13685,
+          "min": 34
+        }
+      },
+      "34": {
+        "count": 37,
+        "degree_counts": {
+          "1": 1,
+          "2": 7,
+          "3": 22,
+          "4": 7
+        },
+        "equation_class_counts": {
+          "bilinear": 7,
+          "higher_multilinear": 29,
+          "linear": 1
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 34,
+          "min": 34
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "(((2)3^_+1)3^_+1)3^_+1",
+          "(((2((2)3^_+1))3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 139860,
+          "median": 14910,
+          "min": 69
+        }
+      },
+      "35": {
+        "count": 4,
+        "degree_counts": {
+          "2": 3,
+          "3": 1
+        },
+        "equation_class_counts": {
+          "bilinear": 3,
+          "higher_multilinear": 1
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 35.0,
+          "min": 35
+        },
+        "representative_polynomials": [
+          "(((2)3^_+1)3^_+1)3^_+1",
+          "((1)3^_+1)3^_+1",
+          "((3)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 16206,
+          "median": 1296.0,
+          "min": 666
+        }
+      }
+    },
+    "by_polynomial_shape": {
+      "A(A(A(A(P0))))": {
+        "count": 102,
+        "degree_counts": {
+          "4": 102
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 102
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 29.0,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 58887.5,
+          "min": 27405
+        }
+      },
+      "A(A(A(P(A(P0)))))": {
+        "count": 540,
+        "degree_counts": {
+          "4": 540
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 540
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 29.0,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "(((3((3)3^_+1))3^_+1)3^_+1)3^_+1",
+          "(((3((2)3^_+1))3^_+1)3^_+1)3^_+1",
+          "(((3((4)3^_+1))3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 46376.0,
+          "min": 23751
+        }
+      },
+      "A(A(A(P0)))": {
+        "count": 1273,
+        "degree_counts": {
+          "3": 1273
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1273
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 27,
+          "min": 19
+        },
+        "representative_polynomials": [
+          "(((1)3^_+1)3^_+1)3^_+1",
+          "(((3)3^_+1)3^_+1)3^_+1",
+          "(((2)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4495,
+          "min": 1540
+        }
+      },
+      "A(A(P(A(A(P0)))))": {
+        "count": 334,
+        "degree_counts": {
+          "4": 334
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 334
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 29.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "((3(((3)3^_+1)3^_+1))3^_+1)3^_+1",
+          "((3(((2)3^_+1)3^_+1))3^_+1)3^_+1",
+          "((3(((4)3^_+1)3^_+1))3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376.0,
+          "min": 23751
+        }
+      },
+      "A(A(P(A(P(A(P0))))))": {
+        "count": 949,
+        "degree_counts": {
+          "4": 949
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 949
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "((3((3((3)3^_+1))3^_+1))3^_+1)3^_+1",
+          "((3((3((2)3^_+1))3^_+1))3^_+1)3^_+1",
+          "((3((3((4)3^_+1))3^_+1))3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 40920,
+          "min": 20475
+        }
+      },
+      "A(A(P(A(P0))))": {
+        "count": 5541,
+        "degree_counts": {
+          "3": 5541
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 5541
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 26,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "((3((1)3^_+1))3^_+1)3^_+1",
+          "((9((3)3^_+1))3^_+1)3^_+1",
+          "((3((2)3^_+1))3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4060,
+          "min": 1330
+        }
+      },
+      "A(A(P(A(P0)*A(P0))))": {
+        "count": 830,
+        "degree_counts": {
+          "4": 830
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 830
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)((3)3^_+1))3^_+1)3^_+1",
+          "((((2)3^_+1)((3)3^_+1))3^_+1)3^_+1",
+          "((((3)3^_+1)((4)3^_+1))3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 40920.0,
+          "min": 20475
+        }
+      },
+      "A(A(P0))": {
+        "count": 3724,
+        "degree_counts": {
+          "2": 3724
+        },
+        "equation_class_counts": {
+          "bilinear": 3724
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 24.0,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "((1)3^_+1)3^_+1",
+          "((3)3^_+1)3^_+1",
+          "((2)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 2035,
+          "median": 400.0,
+          "min": 120
+        }
+      },
+      "A(P(A(A(A(P0)))))": {
+        "count": 236,
+        "degree_counts": {
+          "4": 236
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 236
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 30.0,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "(3((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+          "(3((((2)3^_+1)3^_+1)3^_+1))3^_+1",
+          "(3((((4)3^_+1)3^_+1)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 58870.0,
+          "min": 23751
+        }
+      },
+      "A(P(A(A(P(A(P0))))))": {
+        "count": 554,
+        "degree_counts": {
+          "4": 554
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 554
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 29.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "(3(((3((3)3^_+1))3^_+1)3^_+1))3^_+1",
+          "(3(((3((2)3^_+1))3^_+1)3^_+1))3^_+1",
+          "(3(((3((4)3^_+1))3^_+1)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 52360.0,
+          "min": 20475
+        }
+      },
+      "A(P(A(A(P0))))": {
+        "count": 3373,
+        "degree_counts": {
+          "3": 3373
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 3373
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 27,
+          "min": 20
+        },
+        "representative_polynomials": [
+          "(3(((1)3^_+1)3^_+1))3^_+1",
+          "(9(((3)3^_+1)3^_+1))3^_+1",
+          "(3(((6)3^_+1)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 5525,
+          "min": 1771
+        }
+      },
+      "A(P(A(A(P0))*A(P0)))": {
+        "count": 1104,
+        "degree_counts": {
+          "4": 1104
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1104
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 29.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+          "((((3)3^_+1)3^_+1)((2)3^_+1))3^_+1",
+          "((((3)3^_+1)3^_+1)((4)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 52360.0,
+          "min": 20475
+        }
+      },
+      "A(P(A(P(A(A(P0))))))": {
+        "count": 495,
+        "degree_counts": {
+          "4": 495
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 495
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 29,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "(3((3(((3)3^_+1)3^_+1))3^_+1))3^_+1",
+          "(3((3(((2)3^_+1)3^_+1))3^_+1))3^_+1",
+          "(3((3(((4)3^_+1)3^_+1))3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 51156,
+          "min": 23751
+        }
+      },
+      "A(P(A(P(A(P(A(P0)))))))": {
+        "count": 1025,
+        "degree_counts": {
+          "4": 1025
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1025
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "(3((3((3((3)3^_+1))3^_+1))3^_+1))3^_+1",
+          "(3((3((2((3)3^_+1))3^_+1))3^_+1))3^_+1",
+          "(3((3((2((2)3^_+1))3^_+1))3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 51156,
+          "min": 20475
+        }
+      },
+      "A(P(A(P(A(P0)))))": {
+        "count": 12861,
+        "degree_counts": {
+          "3": 12861
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 12861
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 26,
+          "min": 19
+        },
+        "representative_polynomials": [
+          "(3((3((1)3^_+1))3^_+1))3^_+1",
+          "(3((3((18)3^_+1))3^_+1))3^_+1",
+          "(3((9((2)3^_+1))3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4960,
+          "min": 1540
+        }
+      },
+      "A(P(A(P(A(P0)))*A(P0)))": {
+        "count": 1373,
+        "degree_counts": {
+          "4": 1373
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1373
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "(((2((3)3^_+1))3^_+1)((3)3^_+1))3^_+1",
+          "(((2((2)3^_+1))3^_+1)((3)3^_+1))3^_+1",
+          "(((2((4)3^_+1))3^_+1)((3)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 44226,
+          "min": 17550
+        }
+      },
+      "A(P(A(P(A(P0)*A(P0)))))": {
+        "count": 1022,
+        "degree_counts": {
+          "4": 1022
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1022
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "(3((((3)3^_+1)((3)3^_+1))3^_+1))3^_+1",
+          "(3((((2)3^_+1)((3)3^_+1))3^_+1))3^_+1",
+          "(3((((3)3^_+1)((4)3^_+1))3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376.0,
+          "min": 20475
+        }
+      },
+      "A(P(A(P0)))": {
+        "count": 31079,
+        "degree_counts": {
+          "2": 31079
+        },
+        "equation_class_counts": {
+          "bilinear": 31079
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 24,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "(3((9)3^_+1))3^_+1",
+          "(9((27)3^_+1))3^_+1",
+          "(9((3)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 2485,
+          "median": 465,
+          "min": 120
+        }
+      },
+      "A(P(A(P0)*A(P(A(P0)))))": {
+        "count": 1719,
+        "degree_counts": {
+          "4": 1719
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1719
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "(((3)3^_+1)((3((3)3^_+1))3^_+1))3^_+1",
+          "(((3)3^_+1)((3((2)3^_+1))3^_+1))3^_+1",
+          "(((3)3^_+1)((3((4)3^_+1))3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376,
+          "min": 17550
+        }
+      },
+      "A(P(A(P0)*A(P0)))": {
+        "count": 12309,
+        "degree_counts": {
+          "3": 12309
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 12309
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 26,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "(((1)3^_+1)((3)3^_+1))3^_+1",
+          "(((3)3^_+1)((3)3^_+1))3^_+1",
+          "(((1)3^_+1)((2)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4900,
+          "min": 1330
+        }
+      },
+      "A(P(A(P0)*A(P0)*A(P0)))": {
+        "count": 667,
+        "degree_counts": {
+          "4": 667
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 667
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "(((2)3^_+1)((3)3^_+1)((3)3^_+1))3^_+1",
+          "(((3)3^_+1)((3)3^_+1)((4)3^_+1))3^_+1",
+          "(((3)3^_+1)((3)3^_+1)((8)3^_+1))3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376,
+          "min": 20475
+        }
+      },
+      "A(P0)": {
+        "count": 6784,
+        "degree_counts": {
+          "1": 6784
+        },
+        "equation_class_counts": {
+          "linear": 6784
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 22.0,
+          "min": 13
+        },
+        "representative_polynomials": [
+          "(7)3^_+1",
+          "(10)3^_+1",
+          "(14)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 140,
+          "median": 26.0,
+          "min": 15
+        }
+      },
+      "P(A(A(A(A(P0)))))": {
+        "count": 101,
+        "degree_counts": {
+          "4": 101
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 101
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 29,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "2(((((3)3^_+1)3^_+1)3^_+1)3^_+1)",
+          "2(((((2)3^_+1)3^_+1)3^_+1)3^_+1)",
+          "2(((((4)3^_+1)3^_+1)3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 58870,
+          "min": 27405
+        }
+      },
+      "P(A(A(A(P(A(P0))))))": {
+        "count": 220,
+        "degree_counts": {
+          "4": 220
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 220
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "2((((3((3)3^_+1))3^_+1)3^_+1)3^_+1)",
+          "2((((3((2)3^_+1))3^_+1)3^_+1)3^_+1)",
+          "2((((3((4)3^_+1))3^_+1)3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 46376.0,
+          "min": 23751
+        }
+      },
+      "P(A(A(A(P0))))": {
+        "count": 598,
+        "degree_counts": {
+          "3": 598
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 598
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 26.0,
+          "min": 20
+        },
+        "representative_polynomials": [
+          "9((((64)3^_+1)3^_+1)3^_+1)",
+          "3((((256)3^_+1)3^_+1)3^_+1)",
+          "2((((1)3^_+1)3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 24955,
+          "median": 4900.0,
+          "min": 1771
+        }
+      },
+      "P(A(A(A(P0)))*A(P0))": {
+        "count": 1231,
+        "degree_counts": {
+          "4": 1231
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1231
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 29,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)((3)3^_+1)",
+          "((((3)3^_+1)3^_+1)3^_+1)((2)3^_+1)",
+          "((((3)3^_+1)3^_+1)3^_+1)((4)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 46376,
+          "min": 20475
+        }
+      },
+      "P(A(A(P(A(A(P0))))))": {
+        "count": 262,
+        "degree_counts": {
+          "4": 262
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 262
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "2(((3(((3)3^_+1)3^_+1))3^_+1)3^_+1)",
+          "2(((3(((2)3^_+1)3^_+1))3^_+1)3^_+1)",
+          "2(((3(((4)3^_+1)3^_+1))3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 52360.0,
+          "min": 23751
+        }
+      },
+      "P(A(A(P(A(P(A(P0)))))))": {
+        "count": 475,
+        "degree_counts": {
+          "4": 475
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 475
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "2(((3((3((3)3^_+1))3^_+1))3^_+1)3^_+1)",
+          "2(((3((3((2)3^_+1))3^_+1))3^_+1)3^_+1)",
+          "2(((3((3((4)3^_+1))3^_+1))3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 44226,
+          "min": 20475
+        }
+      },
+      "P(A(A(P(A(P0)))))": {
+        "count": 3770,
+        "degree_counts": {
+          "3": 3770
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 3770
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 25.0,
+          "min": 19
+        },
+        "representative_polynomials": [
+          "3(((3((256)3^_+1))3^_+1)3^_+1)",
+          "9(((2((32)3^_+1))3^_+1)3^_+1)",
+          "3(((2((128)3^_+1))3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 22625,
+          "median": 4900.0,
+          "min": 1540
+        }
+      },
+      "P(A(A(P(A(P0))))*A(P0))": {
+        "count": 2634,
+        "degree_counts": {
+          "4": 2634
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 2634
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "(((3((3)3^_+1))3^_+1)3^_+1)((3)3^_+1)",
+          "(((3((3)3^_+1))3^_+1)3^_+1)((2)3^_+1)",
+          "(((3((3)3^_+1))3^_+1)3^_+1)((4)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 44226.0,
+          "min": 17550
+        }
+      },
+      "P(A(A(P(A(P0)*A(P0)))))": {
+        "count": 538,
+        "degree_counts": {
+          "4": 538
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 538
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "2(((((3)3^_+1)((3)3^_+1))3^_+1)3^_+1)",
+          "2(((((2)3^_+1)((3)3^_+1))3^_+1)3^_+1)",
+          "2(((((3)3^_+1)((4)3^_+1))3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 51156.0,
+          "min": 20475
+        }
+      },
+      "P(A(A(P0)))": {
+        "count": 2278,
+        "degree_counts": {
+          "2": 2278
+        },
+        "equation_class_counts": {
+          "bilinear": 2278
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 24.0,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "9(((31)3^_+1)3^_+1)",
+          "3(((41)3^_+1)3^_+1)",
+          "3(((86)3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 2035,
+          "median": 435.0,
+          "min": 136
+        }
+      },
+      "P(A(A(P0))*A(A(P0)))": {
+        "count": 535,
+        "degree_counts": {
+          "4": 535
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 535
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 29,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "(((3)3^_+1)3^_+1)(((3)3^_+1)3^_+1)",
+          "(((2)3^_+1)3^_+1)(((3)3^_+1)3^_+1)",
+          "(((3)3^_+1)3^_+1)(((4)3^_+1)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 51156,
+          "min": 20475
+        }
+      },
+      "P(A(A(P0))*A(P(A(P0))))": {
+        "count": 3056,
+        "degree_counts": {
+          "4": 3056
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 3056
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "(((3)3^_+1)3^_+1)((3((3)3^_+1))3^_+1)",
+          "(((3)3^_+1)3^_+1)((3((2)3^_+1))3^_+1)",
+          "(((3)3^_+1)3^_+1)((3((4)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 40920.0,
+          "min": 17550
+        }
+      },
+      "P(A(A(P0))*A(P0))": {
+        "count": 12919,
+        "degree_counts": {
+          "3": 12919
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 12919
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 26,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "(((1)3^_+1)3^_+1)((3)3^_+1)",
+          "(((3)3^_+1)3^_+1)((1)3^_+1)",
+          "(((3)3^_+1)3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 24955,
+          "median": 4495,
+          "min": 1330
+        }
+      },
+      "P(A(A(P0))*A(P0)*A(P0))": {
+        "count": 1839,
+        "degree_counts": {
+          "4": 1839
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1839
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "(((3)3^_+1)3^_+1)((3)3^_+1)((3)3^_+1)",
+          "(((3)3^_+1)3^_+1)((2)3^_+1)((3)3^_+1)",
+          "(((3)3^_+1)3^_+1)((3)3^_+1)((4)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376,
+          "min": 17550
+        }
+      },
+      "P(A(P(A(A(A(P0))))))": {
+        "count": 113,
+        "degree_counts": {
+          "4": 113
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 113
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28,
+          "min": 25
+        },
+        "representative_polynomials": [
+          "2((3((((3)3^_+1)3^_+1)3^_+1))3^_+1)",
+          "2((3((((2)3^_+1)3^_+1)3^_+1))3^_+1)",
+          "2((3((((4)3^_+1)3^_+1)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 52360,
+          "min": 27405
+        }
+      },
+      "P(A(P(A(A(P(A(P0)))))))": {
+        "count": 214,
+        "degree_counts": {
+          "4": 214
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 214
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "2((3(((3((3)3^_+1))3^_+1)3^_+1))3^_+1)",
+          "2((3(((3((2)3^_+1))3^_+1)3^_+1))3^_+1)",
+          "2((3(((3((4)3^_+1))3^_+1)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 35960.0,
+          "min": 20475
+        }
+      },
+      "P(A(P(A(A(P0)))))": {
+        "count": 1760,
+        "degree_counts": {
+          "3": 1760
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1760
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 26.0,
+          "min": 21
+        },
+        "representative_polynomials": [
+          "9((2(((32)3^_+1)3^_+1))3^_+1)",
+          "3((2(((128)3^_+1)3^_+1))3^_+1)",
+          "2((3(((1)3^_+1)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 24955,
+          "median": 4495.0,
+          "min": 2024
+        }
+      },
+      "P(A(P(A(A(P0))))*A(P0))": {
+        "count": 797,
+        "degree_counts": {
+          "4": 797
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 797
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "((2(((2)3^_+1)3^_+1))3^_+1)((3)3^_+1)",
+          "((2(((4)3^_+1)3^_+1))3^_+1)((3)3^_+1)",
+          "((2(((8)3^_+1)3^_+1))3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376,
+          "min": 20475
+        }
+      },
+      "P(A(P(A(A(P0))*A(P0))))": {
+        "count": 581,
+        "degree_counts": {
+          "4": 581
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 581
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "2(((((3)3^_+1)3^_+1)((3)3^_+1))3^_+1)",
+          "2(((((3)3^_+1)3^_+1)((2)3^_+1))3^_+1)",
+          "2(((((3)3^_+1)3^_+1)((4)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 46376,
+          "min": 23751
+        }
+      },
+      "P(A(P(A(P(A(A(P0)))))))": {
+        "count": 196,
+        "degree_counts": {
+          "4": 196
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 196
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 28.0,
+          "min": 24
+        },
+        "representative_polynomials": [
+          "2((3((3(((3)3^_+1)3^_+1))3^_+1))3^_+1)",
+          "2((3((3(((2)3^_+1)3^_+1))3^_+1))3^_+1)",
+          "2((3((3(((4)3^_+1)3^_+1))3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 46376.0,
+          "min": 20475
+        }
+      },
+      "P(A(P(A(P(A(P(A(P0))))))))": {
+        "count": 288,
+        "degree_counts": {
+          "4": 288
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 288
+        },
+        "exponent_sum_bound": {
+          "max": 30,
+          "median": 27.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "2((3((3((3((2)3^_+1))3^_+1))3^_+1))3^_+1)",
+          "2((3((3((3((4)3^_+1))3^_+1))3^_+1))3^_+1)",
+          "2((3((3((2((2)3^_+1))3^_+1))3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 139056,
+          "median": 35960.0,
+          "min": 17550
+        }
+      },
+      "P(A(P(A(P(A(P0))))))": {
+        "count": 5866,
+        "degree_counts": {
+          "3": 5866
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 5866
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 25.0,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "9((2((3((32)3^_+1))3^_+1))3^_+1)",
+          "3((2((3((128)3^_+1))3^_+1))3^_+1)",
+          "9((2((2((16)3^_+1))3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 22625,
+          "median": 4900.0,
+          "min": 1330
+        }
+      },
+      "P(A(P(A(P(A(P0)))))*A(P0))": {
+        "count": 1299,
+        "degree_counts": {
+          "4": 1299
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1299
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "((2((3((2)3^_+1))3^_+1))3^_+1)((3)3^_+1)",
+          "((2((3((4)3^_+1))3^_+1))3^_+1)((3)3^_+1)",
+          "((2((3((8)3^_+1))3^_+1))3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 40920,
+          "min": 17550
+        }
+      },
+      "P(A(P(A(P(A(P0)))*A(P0))))": {
+        "count": 521,
+        "degree_counts": {
+          "4": 521
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 521
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "2((((2((3)3^_+1))3^_+1)((3)3^_+1))3^_+1)",
+          "2((((2((2)3^_+1))3^_+1)((3)3^_+1))3^_+1)",
+          "2((((2((4)3^_+1))3^_+1)((3)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 40920,
+          "min": 20475
+        }
+      },
+      "P(A(P(A(P(A(P0)*A(P0))))))": {
+        "count": 366,
+        "degree_counts": {
+          "4": 366
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 366
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 27.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "2((3((((3)3^_+1)((3)3^_+1))3^_+1))3^_+1)",
+          "2((3((((2)3^_+1)((3)3^_+1))3^_+1))3^_+1)",
+          "2((3((((3)3^_+1)((4)3^_+1))3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 40920.0,
+          "min": 17550
+        }
+      },
+      "P(A(P(A(P0))))": {
+        "count": 12740,
+        "degree_counts": {
+          "2": 12740
+        },
+        "equation_class_counts": {
+          "bilinear": 12740
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 23.0,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "81((2((20)3^_+1))3^_+1)",
+          "3((2((43)3^_+1))3^_+1)",
+          "9((2((97)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 2330,
+          "median": 484.0,
+          "min": 120
+        }
+      },
+      "P(A(P(A(P0)))*A(P(A(P0))))": {
+        "count": 2075,
+        "degree_counts": {
+          "4": 2075
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 2075
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 28,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "((3((3)3^_+1))3^_+1)((3((3)3^_+1))3^_+1)",
+          "((3((2)3^_+1))3^_+1)((3((3)3^_+1))3^_+1)",
+          "((3((3)3^_+1))3^_+1)((3((4)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 40920,
+          "min": 17550
+        }
+      },
+      "P(A(P(A(P0)))*A(P0))": {
+        "count": 19157,
+        "degree_counts": {
+          "3": 19157
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 19157
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 26,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "((2((1)3^_+1))3^_+1)((3)3^_+1)",
+          "((2((3)3^_+1))3^_+1)((3)3^_+1)",
+          "((2((5)3^_+1))3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4495,
+          "min": 1330
+        }
+      },
+      "P(A(P(A(P0)))*A(P0)*A(P0))": {
+        "count": 647,
+        "degree_counts": {
+          "4": 647
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 647
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 27,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "((2((3)3^_+1))3^_+1)((3)3^_+1)((3)3^_+1)",
+          "((2((2)3^_+1))3^_+1)((3)3^_+1)((3)3^_+1)",
+          "((2((4)3^_+1))3^_+1)((3)3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 40920,
+          "min": 20475
+        }
+      },
+      "P(A(P(A(P0)*A(P(A(P0))))))": {
+        "count": 788,
+        "degree_counts": {
+          "4": 788
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 788
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "2((((3)3^_+1)((3((3)3^_+1))3^_+1))3^_+1)",
+          "2((((3)3^_+1)((3((2)3^_+1))3^_+1))3^_+1)",
+          "2((((3)3^_+1)((3((4)3^_+1))3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 40920.0,
+          "min": 20475
+        }
+      },
+      "P(A(P(A(P0)*A(P0))))": {
+        "count": 7140,
+        "degree_counts": {
+          "3": 7140
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 7140
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 25.0,
+          "min": 18
+        },
+        "representative_polynomials": [
+          "3((((3)3^_+1)((256)3^_+1))3^_+1)",
+          "9((((2)3^_+1)((32)3^_+1))3^_+1)",
+          "3((((2)3^_+1)((128)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 24955,
+          "median": 4324.0,
+          "min": 1330
+        }
+      },
+      "P(A(P(A(P0)*A(P0)))*A(P0))": {
+        "count": 2703,
+        "degree_counts": {
+          "4": 2703
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 2703
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)((3)3^_+1))3^_+1)((3)3^_+1)",
+          "((((2)3^_+1)((3)3^_+1))3^_+1)((3)3^_+1)",
+          "((((3)3^_+1)((4)3^_+1))3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 40920,
+          "min": 17550
+        }
+      },
+      "P(A(P(A(P0)*A(P0)*A(P0))))": {
+        "count": 354,
+        "degree_counts": {
+          "4": 354
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 354
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 27.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "2((((2)3^_+1)((3)3^_+1)((3)3^_+1))3^_+1)",
+          "2((((3)3^_+1)((3)3^_+1)((4)3^_+1))3^_+1)",
+          "2((((3)3^_+1)((3)3^_+1)((8)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 159501,
+          "median": 39472.5,
+          "min": 20475
+        }
+      },
+      "P(A(P0))": {
+        "count": 2593,
+        "degree_counts": {
+          "1": 2593
+        },
+        "equation_class_counts": {
+          "linear": 2593
+        },
+        "exponent_sum_bound": {
+          "max": 30,
+          "median": 22,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "81((2)3^_+1)",
+          "81((20)3^_+1)",
+          "81((52)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 140,
+          "median": 43,
+          "min": 15
+        }
+      },
+      "P(A(P0)*A(P(A(A(P0)))))": {
+        "count": 1230,
+        "degree_counts": {
+          "4": 1230
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1230
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 28.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "((3)3^_+1)((3(((3)3^_+1)3^_+1))3^_+1)",
+          "((3)3^_+1)((3(((2)3^_+1)3^_+1))3^_+1)",
+          "((3)3^_+1)((3(((4)3^_+1)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 234521,
+          "median": 44226.0,
+          "min": 17550
+        }
+      },
+      "P(A(P0)*A(P(A(P(A(P0))))))": {
+        "count": 2174,
+        "degree_counts": {
+          "4": 2174
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 2174
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27.0,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((3)3^_+1)((3((3((3)3^_+1))3^_+1))3^_+1)",
+          "((3)3^_+1)((3((3((2)3^_+1))3^_+1))3^_+1)",
+          "((3)3^_+1)((3((3((4)3^_+1))3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 40920.0,
+          "min": 14950
+        }
+      },
+      "P(A(P0)*A(P(A(P0))))": {
+        "count": 23552,
+        "degree_counts": {
+          "3": 23552
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 23552
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 25.0,
+          "min": 17
+        },
+        "representative_polynomials": [
+          "((1)3^_+1)((3((3)3^_+1))3^_+1)",
+          "((3)3^_+1)((3((1)3^_+1))3^_+1)",
+          "((3)3^_+1)((3((3)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4495.0,
+          "min": 1140
+        }
+      },
+      "P(A(P0)*A(P(A(P0)))*A(P0))": {
+        "count": 1008,
+        "degree_counts": {
+          "4": 1008
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1008
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27.0,
+          "min": 23
+        },
+        "representative_polynomials": [
+          "((3)3^_+1)((3((3)3^_+1))3^_+1)((4)3^_+1)",
+          "((3)3^_+1)((3((3)3^_+1))3^_+1)((5)3^_+1)",
+          "((3)3^_+1)((3((3)3^_+1))3^_+1)((7)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 182126,
+          "median": 40920.0,
+          "min": 17550
+        }
+      },
+      "P(A(P0)*A(P(A(P0)*A(P0))))": {
+        "count": 1451,
+        "degree_counts": {
+          "4": 1451
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1451
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((3)3^_+1)((4((3)3^_+1)((3)3^_+1))3^_+1)",
+          "((3)3^_+1)((4((2)3^_+1)((3)3^_+1))3^_+1)",
+          "((3)3^_+1)((4((3)3^_+1)((4)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 40920,
+          "min": 17550
+        }
+      },
+      "P(A(P0)*A(P0))": {
+        "count": 36561,
+        "degree_counts": {
+          "2": 36561
+        },
+        "equation_class_counts": {
+          "bilinear": 36561
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 23,
+          "min": 13
+        },
+        "representative_polynomials": [
+          "((1)3^_+1)((4)3^_+1)",
+          "((3)3^_+1)((4)3^_+1)",
+          "((1)3^_+1)((5)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 2330,
+          "median": 435,
+          "min": 120
+        }
+      },
+      "P(A(P0)*A(P0)*A(P(A(P0))))": {
+        "count": 1395,
+        "degree_counts": {
+          "4": 1395
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 1395
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((3)3^_+1)((3)3^_+1)((3((3)3^_+1))3^_+1)",
+          "((3)3^_+1)((3)3^_+1)((3((2)3^_+1))3^_+1)",
+          "((3)3^_+1)((3)3^_+1)((3((4)3^_+1))3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 44226,
+          "min": 17550
+        }
+      },
+      "P(A(P0)*A(P0)*A(P0))": {
+        "count": 11690,
+        "degree_counts": {
+          "3": 11690
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 11690
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 25.0,
+          "min": 17
+        },
+        "representative_polynomials": [
+          "((1)3^_+1)((3)3^_+1)((3)3^_+1)",
+          "((3)3^_+1)((3)3^_+1)((3)3^_+1)",
+          "((1)3^_+1)((2)3^_+1)((3)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 27440,
+          "median": 4495.0,
+          "min": 1330
+        }
+      },
+      "P(A(P0)*A(P0)*A(P0)*A(P0))": {
+        "count": 527,
+        "degree_counts": {
+          "4": 527
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 527
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 27,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((2)3^_+1)((3)3^_+1)((3)3^_+1)((3)3^_+1)",
+          "((3)3^_+1)((3)3^_+1)((3)3^_+1)((4)3^_+1)",
+          "((3)3^_+1)((3)3^_+1)((3)3^_+1)((8)3^_+1)"
+        ],
+        "tuple_search_space": {
+          "max": 207081,
+          "median": 46376,
+          "min": 20475
+        }
+      }
+    },
+    "by_target_b": {
+      "1": {
+        "count": 89567,
+        "degree_counts": {
+          "1": 5978,
+          "2": 37174,
+          "3": 36494,
+          "4": 9921
+        },
+        "equation_class_counts": {
+          "bilinear": 37174,
+          "higher_multilinear": 46415,
+          "linear": 5978
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 26,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((7)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 2600,
+          "min": 15
+        }
+      },
+      "6": {
+        "count": 46326,
+        "degree_counts": {
+          "1": 808,
+          "2": 12934,
+          "3": 23279,
+          "4": 9305
+        },
+        "equation_class_counts": {
+          "bilinear": 12934,
+          "higher_multilinear": 32584,
+          "linear": 808
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 25.0,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((8)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 66045,
+          "median": 3276.0,
+          "min": 15
+        }
+      },
+      "8": {
+        "count": 97310,
+        "degree_counts": {
+          "1": 2224,
+          "2": 29983,
+          "3": 49132,
+          "4": 15971
+        },
+        "equation_class_counts": {
+          "bilinear": 29983,
+          "higher_multilinear": 65103,
+          "linear": 2224
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 25.0,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((8)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 124950,
+          "median": 4324.0,
+          "min": 16
+        }
+      },
+      "9": {
+        "count": 24933,
+        "degree_counts": {
+          "1": 367,
+          "2": 6291,
+          "3": 12904,
+          "4": 5371
+        },
+        "equation_class_counts": {
+          "bilinear": 6291,
+          "higher_multilinear": 18275,
+          "linear": 367
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 26,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((7)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 73815,
+          "median": 3654,
+          "min": 16
+        }
+      }
+    },
+    "by_target_m": {
+      "49": {
+        "count": 29620,
+        "degree_counts": {
+          "1": 507,
+          "2": 8614,
+          "3": 15264,
+          "4": 5235
+        },
+        "equation_class_counts": {
+          "bilinear": 8614,
+          "higher_multilinear": 20499,
+          "linear": 507
+        },
+        "exponent_sum_bound": {
+          "max": 30,
+          "median": 23.0,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 87296,
+          "median": 3276.0,
+          "min": 15
+        }
+      },
+      "50": {
+        "count": 21184,
+        "degree_counts": {
+          "1": 225,
+          "2": 5002,
+          "3": 11262,
+          "4": 4695
+        },
+        "equation_class_counts": {
+          "bilinear": 5002,
+          "higher_multilinear": 15957,
+          "linear": 225
+        },
+        "exponent_sum_bound": {
+          "max": 30,
+          "median": 24.0,
+          "min": 14
+        },
+        "representative_polynomials": [
+          "((((14)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((32)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((128)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 87296,
+          "median": 3276.0,
+          "min": 16
+        }
+      },
+      "51": {
+        "count": 30035,
+        "degree_counts": {
+          "1": 759,
+          "2": 9479,
+          "3": 15001,
+          "4": 4796
+        },
+        "equation_class_counts": {
+          "bilinear": 9479,
+          "higher_multilinear": 19797,
+          "linear": 759
+        },
+        "exponent_sum_bound": {
+          "max": 31,
+          "median": 24,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((10)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((14)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 123256,
+          "median": 3654,
+          "min": 15
+        }
+      },
+      "52": {
+        "count": 30807,
+        "degree_counts": {
+          "1": 700,
+          "2": 9552,
+          "3": 15348,
+          "4": 5207
+        },
+        "equation_class_counts": {
+          "bilinear": 9552,
+          "higher_multilinear": 20555,
+          "linear": 700
+        },
+        "exponent_sum_bound": {
+          "max": 32,
+          "median": 25,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 98736,
+          "median": 3276,
+          "min": 18
+        }
+      },
+      "53": {
+        "count": 24561,
+        "degree_counts": {
+          "1": 462,
+          "2": 6748,
+          "3": 12582,
+          "4": 4769
+        },
+        "equation_class_counts": {
+          "bilinear": 6748,
+          "higher_multilinear": 17351,
+          "linear": 462
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 26,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 111265,
+          "median": 4900,
+          "min": 17
+        }
+      },
+      "54": {
+        "count": 44155,
+        "degree_counts": {
+          "1": 1261,
+          "2": 15327,
+          "3": 21245,
+          "4": 6322
+        },
+        "equation_class_counts": {
+          "bilinear": 15327,
+          "higher_multilinear": 27567,
+          "linear": 1261
+        },
+        "exponent_sum_bound": {
+          "max": 33,
+          "median": 26,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 3654,
+          "min": 16
+        }
+      },
+      "55": {
+        "count": 37466,
+        "degree_counts": {
+          "1": 3179,
+          "2": 14782,
+          "3": 14779,
+          "4": 4726
+        },
+        "equation_class_counts": {
+          "bilinear": 14782,
+          "higher_multilinear": 19505,
+          "linear": 3179
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 26.0,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((7)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 124950,
+          "median": 3276.0,
+          "min": 16
+        }
+      },
+      "56": {
+        "count": 40308,
+        "degree_counts": {
+          "1": 2284,
+          "2": 16878,
+          "3": 16328,
+          "4": 4818
+        },
+        "equation_class_counts": {
+          "bilinear": 16878,
+          "higher_multilinear": 21146,
+          "linear": 2284
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 27.0,
+          "min": 15
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((5)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((7)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 139860,
+          "median": 3654.0,
+          "min": 19
+        }
+      }
+    },
+    "by_tuple_search_space_bucket": {
+      "T000000_000099": {
+        "count": 8830,
+        "degree_counts": {
+          "1": 8830
+        },
+        "equation_class_counts": {
+          "linear": 8830
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 22.0,
+          "min": 12
+        },
+        "representative_polynomials": [
+          "(7)3^_+1",
+          "(10)3^_+1",
+          "(14)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 95,
+          "median": 26.0,
+          "min": 15
+        }
+      },
+      "T000100_000999": {
+        "count": 79533,
+        "degree_counts": {
+          "1": 547,
+          "2": 78986
+        },
+        "equation_class_counts": {
+          "bilinear": 78986,
+          "linear": 547
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 24,
+          "min": 13
+        },
+        "representative_polynomials": [
+          "((1)3^_+1)3^_+1",
+          "((2)3^_+1)3^_+1",
+          "((135)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 976,
+          "median": 406,
+          "min": 100
+        }
+      },
+      "T001000_009999": {
+        "count": 118162,
+        "degree_counts": {
+          "2": 7396,
+          "3": 110766
+        },
+        "equation_class_counts": {
+          "bilinear": 7396,
+          "higher_multilinear": 110766
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 25.0,
+          "min": 17
+        },
+        "representative_polynomials": [
+          "(((1)3^_+1)3^_+1)3^_+1",
+          "(((3)3^_+1)3^_+1)3^_+1",
+          "(((2)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 9855,
+          "median": 4060.0,
+          "min": 1024
+        }
+      },
+      "T010000_099999": {
+        "count": 49362,
+        "degree_counts": {
+          "3": 11043,
+          "4": 38319
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 49362
+        },
+        "exponent_sum_bound": {
+          "max": 35,
+          "median": 28.0,
+          "min": 22
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 98736,
+          "median": 35960.0,
+          "min": 10235
+        }
+      },
+      "T100000_plus": {
+        "count": 2249,
+        "degree_counts": {
+          "4": 2249
+        },
+        "equation_class_counts": {
+          "higher_multilinear": 2249
+        },
+        "exponent_sum_bound": {
+          "max": 34,
+          "median": 29,
+          "min": 26
+        },
+        "representative_polynomials": [
+          "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+          "((((4)3^_+1)3^_+1)3^_+1)3^_+1"
+        ],
+        "tuple_search_space": {
+          "max": 264606,
+          "median": 139056,
+          "min": 104131
+        }
+      }
+    }
+  },
+  "hard_case_count": 258136,
+  "scope": "exploratory proof-mining taxonomy; not a theorem and not certificate logic",
+  "source": "artifacts/S_46_hard_cases.json",
+  "top_20_largest_exponent_search_spaces": [
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 33,
+      "b": 1,
+      "base_complexity": 7,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 264606,
+      "m": 54,
+      "pair_index": 0,
+      "polynomial": "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 4,
+      "polynomial": "((((7)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 18,
+      "polynomial": "(((3((3)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 37,
+      "polynomial": "(((2((4)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 8,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 463,
+      "polynomial": "((((2)3^_+1)((2)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 464,
+      "polynomial": "((((2)3^_+1)((4)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9389,
+      "polynomial": "(3((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9402,
+      "polynomial": "((((3)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9432,
+      "polynomial": "((((2)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9434,
+      "polynomial": "((((2)3^_+1)3^_+1)((4)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14801,
+      "polynomial": "(2((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 8,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14802,
+      "polynomial": "(2((((2)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14803,
+      "polynomial": "(2((((4)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14854,
+      "polynomial": "(2(((2((2)3^_+1))3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 16125,
+      "polynomial": "(2((2(((2)3^_+1)3^_+1))3^_+1))3^_+1",
+      "shape": "A(P(A(P(A(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 179384,
+      "polynomial": "((((2)3^_+1)3^_+1)3^_+1)((4)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 179396,
+      "polynomial": "((((4)3^_+1)3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 179445,
+      "polynomial": "(((3)3^_+1)3^_+1)(((3)3^_+1)3^_+1)",
+      "shape": "P(A(A(P0))*A(A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 190502,
+      "polynomial": "((2)3^_+1)((2(((2)3^_+1)3^_+1))3^_+1)",
+      "shape": "P(A(P0)*A(P(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 207081,
+      "m": 54,
+      "pair_index": 22,
+      "polynomial": "(((3((7)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    }
+  ],
+  "top_20_shape_signatures": [
+    {
+      "count": 36561,
+      "degree_counts": {
+        "2": 36561
+      },
+      "equation_class_counts": {
+        "bilinear": 36561
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 23,
+        "min": 13
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)((4)3^_+1)",
+        "((3)3^_+1)((4)3^_+1)",
+        "((1)3^_+1)((5)3^_+1)"
+      ],
+      "shape": "P(A(P0)*A(P0))",
+      "tuple_search_space": {
+        "max": 2330,
+        "median": 435,
+        "min": 120
+      }
+    },
+    {
+      "count": 31079,
+      "degree_counts": {
+        "2": 31079
+      },
+      "equation_class_counts": {
+        "bilinear": 31079
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 24,
+        "min": 14
+      },
+      "representative_polynomials": [
+        "(3((9)3^_+1))3^_+1",
+        "(9((27)3^_+1))3^_+1",
+        "(9((3)3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(P0)))",
+      "tuple_search_space": {
+        "max": 2485,
+        "median": 465,
+        "min": 120
+      }
+    },
+    {
+      "count": 23552,
+      "degree_counts": {
+        "3": 23552
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 23552
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 25.0,
+        "min": 17
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)((3((3)3^_+1))3^_+1)",
+        "((3)3^_+1)((3((1)3^_+1))3^_+1)",
+        "((3)3^_+1)((3((3)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P0)*A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4495.0,
+        "min": 1140
+      }
+    },
+    {
+      "count": 19157,
+      "degree_counts": {
+        "3": 19157
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 19157
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "((2((1)3^_+1))3^_+1)((3)3^_+1)",
+        "((2((3)3^_+1))3^_+1)((3)3^_+1)",
+        "((2((5)3^_+1))3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0)))*A(P0))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4495,
+        "min": 1330
+      }
+    },
+    {
+      "count": 12919,
+      "degree_counts": {
+        "3": 12919
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 12919
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "(((1)3^_+1)3^_+1)((3)3^_+1)",
+        "(((3)3^_+1)3^_+1)((1)3^_+1)",
+        "(((3)3^_+1)3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(A(P0))*A(P0))",
+      "tuple_search_space": {
+        "max": 24955,
+        "median": 4495,
+        "min": 1330
+      }
+    },
+    {
+      "count": 12861,
+      "degree_counts": {
+        "3": 12861
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 12861
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 19
+      },
+      "representative_polynomials": [
+        "(3((3((1)3^_+1))3^_+1))3^_+1",
+        "(3((3((18)3^_+1))3^_+1))3^_+1",
+        "(3((9((2)3^_+1))3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(P(A(P0)))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4960,
+        "min": 1540
+      }
+    },
+    {
+      "count": 12740,
+      "degree_counts": {
+        "2": 12740
+      },
+      "equation_class_counts": {
+        "bilinear": 12740
+      },
+      "exponent_sum_bound": {
+        "max": 31,
+        "median": 23.0,
+        "min": 14
+      },
+      "representative_polynomials": [
+        "81((2((20)3^_+1))3^_+1)",
+        "3((2((43)3^_+1))3^_+1)",
+        "9((2((97)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 2330,
+        "median": 484.0,
+        "min": 120
+      }
+    },
+    {
+      "count": 12309,
+      "degree_counts": {
+        "3": 12309
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 12309
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "(((1)3^_+1)((3)3^_+1))3^_+1",
+        "(((3)3^_+1)((3)3^_+1))3^_+1",
+        "(((1)3^_+1)((2)3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(P0)*A(P0)))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4900,
+        "min": 1330
+      }
+    },
+    {
+      "count": 11690,
+      "degree_counts": {
+        "3": 11690
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 11690
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 25.0,
+        "min": 17
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)((3)3^_+1)((3)3^_+1)",
+        "((3)3^_+1)((3)3^_+1)((3)3^_+1)",
+        "((1)3^_+1)((2)3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(P0)*A(P0)*A(P0))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4495.0,
+        "min": 1330
+      }
+    },
+    {
+      "count": 7140,
+      "degree_counts": {
+        "3": 7140
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 7140
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 25.0,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "3((((3)3^_+1)((256)3^_+1))3^_+1)",
+        "9((((2)3^_+1)((32)3^_+1))3^_+1)",
+        "3((((2)3^_+1)((128)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0)*A(P0))))",
+      "tuple_search_space": {
+        "max": 24955,
+        "median": 4324.0,
+        "min": 1330
+      }
+    },
+    {
+      "count": 6784,
+      "degree_counts": {
+        "1": 6784
+      },
+      "equation_class_counts": {
+        "linear": 6784
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 22.0,
+        "min": 13
+      },
+      "representative_polynomials": [
+        "(7)3^_+1",
+        "(10)3^_+1",
+        "(14)3^_+1"
+      ],
+      "shape": "A(P0)",
+      "tuple_search_space": {
+        "max": 140,
+        "median": 26.0,
+        "min": 15
+      }
+    },
+    {
+      "count": 5866,
+      "degree_counts": {
+        "3": 5866
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 5866
+      },
+      "exponent_sum_bound": {
+        "max": 32,
+        "median": 25.0,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "9((2((3((32)3^_+1))3^_+1))3^_+1)",
+        "3((2((3((128)3^_+1))3^_+1))3^_+1)",
+        "9((2((2((16)3^_+1))3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P(A(P(A(P0))))))",
+      "tuple_search_space": {
+        "max": 22625,
+        "median": 4900.0,
+        "min": 1330
+      }
+    },
+    {
+      "count": 5541,
+      "degree_counts": {
+        "3": 5541
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 5541
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "((3((1)3^_+1))3^_+1)3^_+1",
+        "((9((3)3^_+1))3^_+1)3^_+1",
+        "((3((2)3^_+1))3^_+1)3^_+1"
+      ],
+      "shape": "A(A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4060,
+        "min": 1330
+      }
+    },
+    {
+      "count": 3770,
+      "degree_counts": {
+        "3": 3770
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 3770
+      },
+      "exponent_sum_bound": {
+        "max": 32,
+        "median": 25.0,
+        "min": 19
+      },
+      "representative_polynomials": [
+        "3(((3((256)3^_+1))3^_+1)3^_+1)",
+        "9(((2((32)3^_+1))3^_+1)3^_+1)",
+        "3(((2((128)3^_+1))3^_+1)3^_+1)"
+      ],
+      "shape": "P(A(A(P(A(P0)))))",
+      "tuple_search_space": {
+        "max": 22625,
+        "median": 4900.0,
+        "min": 1540
+      }
+    },
+    {
+      "count": 3724,
+      "degree_counts": {
+        "2": 3724
+      },
+      "equation_class_counts": {
+        "bilinear": 3724
+      },
+      "exponent_sum_bound": {
+        "max": 35,
+        "median": 24.0,
+        "min": 14
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)3^_+1",
+        "((3)3^_+1)3^_+1",
+        "((2)3^_+1)3^_+1"
+      ],
+      "shape": "A(A(P0))",
+      "tuple_search_space": {
+        "max": 2035,
+        "median": 400.0,
+        "min": 120
+      }
+    },
+    {
+      "count": 3373,
+      "degree_counts": {
+        "3": 3373
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 3373
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 27,
+        "min": 20
+      },
+      "representative_polynomials": [
+        "(3(((1)3^_+1)3^_+1))3^_+1",
+        "(9(((3)3^_+1)3^_+1))3^_+1",
+        "(3(((6)3^_+1)3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(A(P0))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 5525,
+        "min": 1771
+      }
+    },
+    {
+      "count": 3056,
+      "degree_counts": {
+        "4": 3056
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 3056
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 28.0,
+        "min": 23
+      },
+      "representative_polynomials": [
+        "(((3)3^_+1)3^_+1)((3((3)3^_+1))3^_+1)",
+        "(((3)3^_+1)3^_+1)((3((2)3^_+1))3^_+1)",
+        "(((3)3^_+1)3^_+1)((3((4)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(A(P0))*A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 207081,
+        "median": 40920.0,
+        "min": 17550
+      }
+    },
+    {
+      "count": 2703,
+      "degree_counts": {
+        "4": 2703
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 2703
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 28,
+        "min": 23
+      },
+      "representative_polynomials": [
+        "((((3)3^_+1)((3)3^_+1))3^_+1)((3)3^_+1)",
+        "((((2)3^_+1)((3)3^_+1))3^_+1)((3)3^_+1)",
+        "((((3)3^_+1)((4)3^_+1))3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0)*A(P0)))*A(P0))",
+      "tuple_search_space": {
+        "max": 207081,
+        "median": 40920,
+        "min": 17550
+      }
+    },
+    {
+      "count": 2634,
+      "degree_counts": {
+        "4": 2634
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 2634
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 28.0,
+        "min": 23
+      },
+      "representative_polynomials": [
+        "(((3((3)3^_+1))3^_+1)3^_+1)((3)3^_+1)",
+        "(((3((3)3^_+1))3^_+1)3^_+1)((2)3^_+1)",
+        "(((3((3)3^_+1))3^_+1)3^_+1)((4)3^_+1)"
+      ],
+      "shape": "P(A(A(P(A(P0))))*A(P0))",
+      "tuple_search_space": {
+        "max": 207081,
+        "median": 44226.0,
+        "min": 17550
+      }
+    },
+    {
+      "count": 2593,
+      "degree_counts": {
+        "1": 2593
+      },
+      "equation_class_counts": {
+        "linear": 2593
+      },
+      "exponent_sum_bound": {
+        "max": 30,
+        "median": 22,
+        "min": 12
+      },
+      "representative_polynomials": [
+        "81((2)3^_+1)",
+        "81((20)3^_+1)",
+        "81((52)3^_+1)"
+      ],
+      "shape": "P(A(P0))",
+      "tuple_search_space": {
+        "max": 140,
+        "median": 43,
+        "min": 15
+      }
+    }
+  ]
+}

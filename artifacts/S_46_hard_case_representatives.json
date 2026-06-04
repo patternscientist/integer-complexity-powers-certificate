@@ -1,0 +1,2838 @@
+{
+  "closest_miss_gap_pattern_counts": {
+    "sign=negative;v2=1;v3=0;mod16=10;mod81=5": 1,
+    "sign=negative;v2=1;v3=0;mod16=14;mod81=1": 2,
+    "sign=negative;v2=1;v3=0;mod16=2;mod81=7": 1,
+    "sign=negative;v2=1;v3=1;mod16=2;mod81=3": 1,
+    "sign=negative;v2=1;v3=2;mod16=14;mod81=9": 1,
+    "sign=negative;v2=1;v3=2;mod16=2;mod81=9": 1,
+    "sign=negative;v2=2;v3=0;mod16=12;mod81=1": 1,
+    "sign=negative;v2=2;v3=0;mod16=4;mod81=1": 1,
+    "sign=negative;v2=2;v3=0;mod16=4;mod81=31": 1,
+    "sign=negative;v2=2;v3=0;mod16=4;mod81=52": 3,
+    "sign=negative;v2=2;v3=1;mod16=12;mod81=21": 2,
+    "sign=negative;v2=2;v3=2;mod16=12;mod81=9": 1,
+    "sign=negative;v2=3;v3=0;mod16=8;mod81=1": 1,
+    "sign=negative;v2=3;v3=0;mod16=8;mod81=25": 1,
+    "sign=negative;v2=3;v3=0;mod16=8;mod81=67": 1,
+    "sign=negative;v2=3;v3=1;mod16=8;mod81=12": 1,
+    "sign=positive;v2=10;v3=5;mod16=0;mod81=0": 1,
+    "sign=positive;v2=1;v3=0;mod16=6;mod81=65": 1,
+    "sign=positive;v2=1;v3=1;mod16=10;mod81=78": 1,
+    "sign=positive;v2=1;v3=1;mod16=6;mod81=6": 1,
+    "sign=positive;v2=1;v3=1;mod16=6;mod81=75": 1,
+    "sign=positive;v2=1;v3=2;mod16=10;mod81=72": 1,
+    "sign=positive;v2=1;v3=2;mod16=2;mod81=18": 1,
+    "sign=positive;v2=1;v3=3;mod16=14;mod81=54": 1,
+    "sign=positive;v2=1;v3=4;mod16=14;mod81=0": 1,
+    "sign=positive;v2=1;v3=5;mod16=10;mod81=0": 2,
+    "sign=positive;v2=1;v3=5;mod16=14;mod81=0": 1,
+    "sign=positive;v2=1;v3=5;mod16=2;mod81=0": 1,
+    "sign=positive;v2=1;v3=5;mod16=6;mod81=0": 1,
+    "sign=positive;v2=1;v3=7;mod16=14;mod81=0": 1,
+    "sign=positive;v2=2;v3=1;mod16=4;mod81=75": 1,
+    "sign=positive;v2=2;v3=2;mod16=4;mod81=72": 1,
+    "sign=positive;v2=2;v3=3;mod16=12;mod81=54": 1,
+    "sign=positive;v2=2;v3=3;mod16=4;mod81=54": 1,
+    "sign=positive;v2=2;v3=5;mod16=12;mod81=0": 1,
+    "sign=positive;v2=3;v3=3;mod16=8;mod81=54": 2,
+    "sign=positive;v2=3;v3=4;mod16=8;mod81=0": 2,
+    "sign=positive;v2=3;v3=5;mod16=8;mod81=0": 2,
+    "sign=positive;v2=4;v3=0;mod16=0;mod81=73": 2,
+    "sign=positive;v2=4;v3=1;mod16=0;mod81=66": 1,
+    "sign=positive;v2=4;v3=5;mod16=0;mod81=0": 1,
+    "sign=positive;v2=5;v3=6;mod16=0;mod81=0": 1,
+    "sign=positive;v2=6;v3=5;mod16=0;mod81=0": 1,
+    "sign=positive;v2=6;v3=6;mod16=0;mod81=0": 1
+  },
+  "closest_miss_samples": [
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 33,
+      "b": 1,
+      "base_complexity": 7,
+      "closest_miss": {
+        "abs_gap": 1336369392046122,
+        "e": 1,
+        "gap_pattern": {
+          "mod16": 10,
+          "mod243": 78,
+          "mod64": 42,
+          "mod81": 78,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 1,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          0,
+          8
+        ],
+        "signed_gap": 1336369392046122,
+        "tuples_evaluated": 264606,
+        "value": 16678029117435861
+      },
+      "declared_tuple_search_space": 264606,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 0,
+      "polynomial": "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 5042409511311936,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 0,
+          "mod64": 0,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 6,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 5042409511311936,
+        "tuples_evaluated": 234521,
+        "value": 12971988998170047
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 4,
+      "polynomial": "((((7)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 1334674556389368,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 0,
+          "mod64": 56,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 3,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 1334674556389368,
+        "tuples_evaluated": 234521,
+        "value": 16679723953092615
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 18,
+      "polynomial": "(((3((3)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 3188542033850652,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 12,
+          "mod243": 0,
+          "mod64": 28,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 2,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 3188542033850652,
+        "tuples_evaluated": 234521,
+        "value": 14825856475631331
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 37,
+      "polynomial": "(((2((4)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 8,
+      "closest_miss": {
+        "abs_gap": 4224103236085240,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 163,
+          "mod64": 56,
+          "mod81": 1,
+          "sign": "negative",
+          "v2": 3,
+          "v3": 0,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          9,
+          8
+        ],
+        "signed_gap": -4224103236085240,
+        "tuples_evaluated": 234521,
+        "value": 22238501745567223
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 463,
+      "polynomial": "((((2)3^_+1)((2)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 515803379036434,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 2,
+          "mod243": 169,
+          "mod64": 18,
+          "mod81": 7,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 0,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          32,
+          0
+        ],
+        "signed_gap": -515803379036434,
+        "tuples_evaluated": 234521,
+        "value": 18530201888518417
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 464,
+      "polynomial": "((((2)3^_+1)((4)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 1334673781194096,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 0,
+          "mod64": 48,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 4,
+          "v3": 5,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 1334673781194096,
+        "tuples_evaluated": 234521,
+        "value": 16679724728287887
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 9389,
+      "polynomial": "(3((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 515803809503668,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 193,
+          "mod64": 52,
+          "mod81": 31,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          15,
+          1
+        ],
+        "signed_gap": -515803809503668,
+        "tuples_evaluated": 234521,
+        "value": 18530202318985651
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 9402,
+      "polynomial": "((((3)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 3190235448984894,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 162,
+          "mod64": 62,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 4,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          14,
+          0
+        ],
+        "signed_gap": 3190235448984894,
+        "tuples_evaluated": 234521,
+        "value": 14824163060497089
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 9432,
+      "polynomial": "((((2)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 104021430523084,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 12,
+          "mod243": 163,
+          "mod64": 12,
+          "mod81": 1,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 0,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          1,
+          15
+        ],
+        "signed_gap": -104021430523084,
+        "tuples_evaluated": 234521,
+        "value": 18118419940005067
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 9434,
+      "polynomial": "((((2)3^_+1)3^_+1)((4)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 6894582023956698,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 10,
+          "mod243": 0,
+          "mod64": 26,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 6894582023956698,
+        "tuples_evaluated": 234521,
+        "value": 11119816485525285
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 14801,
+      "polynomial": "(2((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 8,
+      "closest_miss": {
+        "abs_gap": 4223538592278690,
+        "e": 1,
+        "gap_pattern": {
+          "mod16": 2,
+          "mod243": 165,
+          "mod64": 34,
+          "mod81": 3,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 1,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          8
+        ],
+        "signed_gap": -4223538592278690,
+        "tuples_evaluated": 234521,
+        "value": 22237937101760673
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 14802,
+      "polynomial": "(2((((2)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 3188541646253016,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 0,
+          "mod64": 24,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 3,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 3188541646253016,
+        "tuples_evaluated": 234521,
+        "value": 14825856863228967
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 14803,
+      "polynomial": "(2((((4)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 3186847069034130,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 2,
+          "mod243": 0,
+          "mod64": 18,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 5,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 3186847069034130,
+        "tuples_evaluated": 234521,
+        "value": 14827551440447853
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 14854,
+      "polynomial": "(2(((2((2)3^_+1))3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 3186846294193152,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 0,
+          "mod64": 0,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 10,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 3186846294193152,
+        "tuples_evaluated": 234521,
+        "value": 14827552215288831
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 16125,
+      "polynomial": "(2((2(((2)3^_+1)3^_+1))3^_+1))3^_+1",
+      "shape": "A(P(A(P(A(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 378542624306728,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 229,
+          "mod64": 40,
+          "mod81": 67,
+          "sign": "negative",
+          "v2": 3,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          1,
+          29
+        ],
+        "signed_gap": -378542624306728,
+        "tuples_evaluated": 234521,
+        "value": 18392941133788711
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 179384,
+      "polynomial": "((((2)3^_+1)3^_+1)3^_+1)((4)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 719323734953376,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 0,
+          "mod64": 32,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 5,
+          "v3": 6,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          9,
+          1
+        ],
+        "signed_gap": 719323734953376,
+        "tuples_evaluated": 234521,
+        "value": 17295074774528607
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 179396,
+      "polynomial": "((((4)3^_+1)3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 650902145325678,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 0,
+          "mod64": 46,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          2,
+          0,
+          12
+        ],
+        "signed_gap": 650902145325678,
+        "tuples_evaluated": 234521,
+        "value": 17363496364156305
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 179445,
+      "polynomial": "(((3)3^_+1)3^_+1)(((3)3^_+1)3^_+1)",
+      "shape": "P(A(A(P0))*A(A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 241281869577028,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 52,
+          "mod64": 4,
+          "mod81": 52,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          29,
+          0,
+          0,
+          1
+        ],
+        "signed_gap": -241281869577028,
+        "tuples_evaluated": 234521,
+        "value": 18255680379059011
+      },
+      "declared_tuple_search_space": 234521,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 190502,
+      "polynomial": "((2)3^_+1)((2(((2)3^_+1)3^_+1))3^_+1)",
+      "shape": "P(A(P0)*A(P(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "closest_miss": {
+        "abs_gap": 5042409769710414,
+        "e": 3,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 54,
+          "mod64": 14,
+          "mod81": 54,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 3,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "signed_gap": 5042409769710414,
+        "tuples_evaluated": 207081,
+        "value": 12971988739771569
+      },
+      "declared_tuple_search_space": 207081,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 22,
+      "polynomial": "(((3((7)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 515960284865922,
+        "e": 2,
+        "gap_pattern": {
+          "mod16": 2,
+          "mod243": 171,
+          "mod64": 2,
+          "mod81": 9,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 2,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          10
+        ],
+        "signed_gap": -515960284865922,
+        "tuples_evaluated": 27440,
+        "value": 18530358794347905
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 1445,
+      "polynomial": "((5((2)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 29,
+      "b": 1,
+      "base_complexity": 17,
+      "closest_miss": {
+        "abs_gap": 1545259053858580,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 163,
+          "mod64": 20,
+          "mod81": 1,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 0,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          15
+        ],
+        "signed_gap": -1545259053858580,
+        "tuples_evaluated": 2035,
+        "value": 19559657563340563
+      },
+      "declared_tuple_search_space": 2035,
+      "degree": 2,
+      "m": 54,
+      "pair_index": 2544,
+      "polynomial": "((95)3^_+1)3^_+1",
+      "shape": "A(A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 3190174235485146,
+        "e": 2,
+        "gap_pattern": {
+          "mod16": 10,
+          "mod243": 72,
+          "mod64": 26,
+          "mod81": 72,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 2,
+          "v5": 0,
+          "v7": 2
+        },
+        "k": [
+          0,
+          0,
+          10
+        ],
+        "signed_gap": 3190174235485146,
+        "tuples_evaluated": 27440,
+        "value": 14824224273996837
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 14863,
+      "polynomial": "(2(((4)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 3189985949127492,
+        "e": 2,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 72,
+          "mod64": 4,
+          "mod81": 72,
+          "sign": "positive",
+          "v2": 2,
+          "v3": 2,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          10
+        ],
+        "signed_gap": 3189985949127492,
+        "tuples_evaluated": 27440,
+        "value": 14824412560354491
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 16523,
+      "polynomial": "(2((4((1)3^_+1))3^_+1))3^_+1",
+      "shape": "A(P(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 515803465129870,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 163,
+          "mod64": 14,
+          "mod81": 1,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 0,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          16
+        ],
+        "signed_gap": -515803465129870,
+        "tuples_evaluated": 2485,
+        "value": 18530201974611853
+      },
+      "declared_tuple_search_space": 2485,
+      "degree": 2,
+      "m": 54,
+      "pair_index": 16693,
+      "polynomial": "(2((5)3^_+1))3^_+1",
+      "shape": "A(P(A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 515803465129870,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 163,
+          "mod64": 14,
+          "mod81": 1,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 0,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          16
+        ],
+        "signed_gap": -515803465129870,
+        "tuples_evaluated": 27440,
+        "value": 18530201974611853
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 9746,
+      "polynomial": "(((1)3^_+1)((5)3^_+1))3^_+1",
+      "shape": "A(P(A(P0)*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 29,
+      "b": 1,
+      "base_complexity": 18,
+      "closest_miss": {
+        "abs_gap": 5111887564883898,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 10,
+          "mod243": 0,
+          "mod64": 58,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 5,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          25
+        ],
+        "signed_gap": 5111887564883898,
+        "tuples_evaluated": 140,
+        "value": 12902510944598085
+      },
+      "declared_tuple_search_space": 140,
+      "degree": 1,
+      "m": 54,
+      "pair_index": 58513,
+      "polynomial": "(188)3^_+1",
+      "shape": "A(P0)"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 30,
+      "b": 1,
+      "base_complexity": 16,
+      "closest_miss": {
+        "abs_gap": 719323742393928,
+        "e": 3,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 135,
+          "mod64": 8,
+          "mod81": 54,
+          "sign": "positive",
+          "v2": 3,
+          "v3": 3,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          9
+        ],
+        "signed_gap": 719323742393928,
+        "tuples_evaluated": 22625,
+        "value": 17295074767088055
+      },
+      "declared_tuple_search_space": 22625,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 518348,
+      "polynomial": "7(((3((4)3^_+1))3^_+1)3^_+1)",
+      "shape": "P(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "closest_miss": {
+        "abs_gap": 719323742393928,
+        "e": 3,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 135,
+          "mod64": 8,
+          "mod81": 54,
+          "sign": "positive",
+          "v2": 3,
+          "v3": 3,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          0,
+          9,
+          1
+        ],
+        "signed_gap": 719323742393928,
+        "tuples_evaluated": 207081,
+        "value": 17295074767088055
+      },
+      "declared_tuple_search_space": 207081,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 179821,
+      "polynomial": "(((3((4)3^_+1))3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(P(A(P0))))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "closest_miss": {
+        "abs_gap": 650902145339340,
+        "e": 3,
+        "gap_pattern": {
+          "mod16": 12,
+          "mod243": 54,
+          "mod64": 12,
+          "mod81": 54,
+          "sign": "positive",
+          "v2": 2,
+          "v3": 3,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          2,
+          0,
+          12
+        ],
+        "signed_gap": 650902145339340,
+        "tuples_evaluated": 207081,
+        "value": 17363496364142643
+      },
+      "declared_tuple_search_space": 207081,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 179480,
+      "polynomial": "(((3)3^_+1)3^_+1)((3((3)3^_+1))3^_+1)",
+      "shape": "P(A(A(P0))*A(P(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "closest_miss": {
+        "abs_gap": 170500394611350,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 6,
+          "mod243": 0,
+          "mod64": 22,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 5,
+          "v5": 2,
+          "v7": 0
+        },
+        "k": [
+          0,
+          1,
+          25
+        ],
+        "signed_gap": 170500394611350,
+        "tuples_evaluated": 24955,
+        "value": 17843898114870633
+      },
+      "declared_tuple_search_space": 24955,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 179585,
+      "polynomial": "(((1)3^_+1)3^_+1)((20)3^_+1)",
+      "shape": "P(A(A(P0))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 30,
+      "b": 1,
+      "base_complexity": 15,
+      "closest_miss": {
+        "abs_gap": 7928323471758396,
+        "e": 1,
+        "gap_pattern": {
+          "mod16": 12,
+          "mod243": 183,
+          "mod64": 60,
+          "mod81": 21,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 1,
+          "v5": 0,
+          "v7": 2
+        },
+        "k": [
+          0,
+          0,
+          10
+        ],
+        "signed_gap": -7928323471758396,
+        "tuples_evaluated": 22625,
+        "value": 25942721981240379
+      },
+      "declared_tuple_search_space": 22625,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 522172,
+      "polynomial": "7((2((3((1)3^_+1))3^_+1))3^_+1)",
+      "shape": "P(A(P(A(P(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 12,
+      "closest_miss": {
+        "abs_gap": 719541605568996,
+        "e": 3,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 135,
+          "mod64": 36,
+          "mod81": 54,
+          "sign": "positive",
+          "v2": 2,
+          "v3": 3,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          14
+        ],
+        "signed_gap": 719541605568996,
+        "tuples_evaluated": 2330,
+        "value": 17294856903912987
+      },
+      "declared_tuple_search_space": 2330,
+      "degree": 2,
+      "m": 54,
+      "pair_index": 522208,
+      "polynomial": "7((2((2)3^_+1))3^_+1)",
+      "shape": "P(A(P(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 515803809503642,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 10,
+          "mod243": 167,
+          "mod64": 26,
+          "mod81": 5,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 0,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          16,
+          0
+        ],
+        "signed_gap": -515803809503642,
+        "tuples_evaluated": 27440,
+        "value": 18530202318985625
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 194811,
+      "polynomial": "((2((1)3^_+1))3^_+1)((4)3^_+1)",
+      "shape": "P(A(P(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "closest_miss": {
+        "abs_gap": 719539797606336,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 0,
+          "mod64": 0,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 6,
+          "v3": 6,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          1,
+          13
+        ],
+        "signed_gap": 719539797606336,
+        "tuples_evaluated": 24955,
+        "value": 17294858711875647
+      },
+      "declared_tuple_search_space": 24955,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 520630,
+      "polynomial": "7((((1)3^_+1)((3)3^_+1))3^_+1)",
+      "shape": "P(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 12,
+      "closest_miss": {
+        "abs_gap": 515803379036520,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 12,
+          "mod64": 40,
+          "mod81": 12,
+          "sign": "negative",
+          "v2": 3,
+          "v3": 1,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          29,
+          1,
+          0
+        ],
+        "signed_gap": -515803379036520,
+        "tuples_evaluated": 207081,
+        "value": 18530201888518503
+      },
+      "declared_tuple_search_space": 207081,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 189241,
+      "polynomial": "((((3)3^_+1)((3)3^_+1))3^_+1)((2)3^_+1)",
+      "shape": "P(A(P(A(P0)*A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 29,
+      "b": 1,
+      "base_complexity": 17,
+      "closest_miss": {
+        "abs_gap": 6896277376364376,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 81,
+          "mod64": 24,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 3,
+          "v3": 4,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          25
+        ],
+        "signed_gap": 6896277376364376,
+        "tuples_evaluated": 140,
+        "value": 11118121133117607
+      },
+      "declared_tuple_search_space": 140,
+      "degree": 1,
+      "m": 54,
+      "pair_index": 190357,
+      "polynomial": "81((2)3^_+1)",
+      "shape": "P(A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 307761149338686,
+        "e": 4,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 0,
+          "mod64": 62,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 7,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          26,
+          0,
+          1
+        ],
+        "signed_gap": 307761149338686,
+        "tuples_evaluated": 27440,
+        "value": 17706637360143297
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 190541,
+      "polynomial": "((2)3^_+1)((2((2)3^_+1))3^_+1)",
+      "shape": "P(A(P0)*A(P(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 12,
+      "closest_miss": {
+        "abs_gap": 241281869577028,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 52,
+          "mod64": 4,
+          "mod81": 52,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          2,
+          29
+        ],
+        "signed_gap": -241281869577028,
+        "tuples_evaluated": 2330,
+        "value": 18255680379059011
+      },
+      "declared_tuple_search_space": 2330,
+      "degree": 2,
+      "m": 54,
+      "pair_index": 521389,
+      "polynomial": "7((2)3^_+1)((2)3^_+1)",
+      "shape": "P(A(P0)*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 241281869577028,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 52,
+          "mod64": 4,
+          "mod81": 52,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          1,
+          2,
+          29
+        ],
+        "signed_gap": -241281869577028,
+        "tuples_evaluated": 27440,
+        "value": 18255680379059011
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 190359,
+      "polynomial": "((2)3^_+1)((2)3^_+1)((2)3^_+1)",
+      "shape": "P(A(P0)*A(P0)*A(P0))"
+    },
+    {
+      "N": 36028797018963960,
+      "allowed_exponent_sum_max": 33,
+      "b": 8,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 821214680702274,
+        "e": 1,
+        "gap_pattern": {
+          "mod16": 2,
+          "mod243": 99,
+          "mod64": 2,
+          "mod81": 18,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 2,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          10,
+          2
+        ],
+        "signed_gap": 821214680702274,
+        "tuples_evaluated": 124950,
+        "value": 35207582338261686
+      },
+      "declared_tuple_search_space": 124950,
+      "degree": 4,
+      "m": 55,
+      "pair_index": 179367,
+      "polynomial": "((((3)3^_+1)3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 72057594037927927,
+      "allowed_exponent_sum_max": 34,
+      "b": 9,
+      "base_complexity": 8,
+      "closest_miss": {
+        "abs_gap": 1185291012457200,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 228,
+          "mod64": 48,
+          "mod81": 66,
+          "sign": "positive",
+          "v2": 4,
+          "v3": 1,
+          "v5": 2,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          2,
+          28
+        ],
+        "signed_gap": 1185291012457200,
+        "tuples_evaluated": 73815,
+        "value": 70872303025470727
+      },
+      "declared_tuple_search_space": 73815,
+      "degree": 4,
+      "m": 56,
+      "pair_index": 179383,
+      "polynomial": "((((2)3^_+1)3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481978,
+      "allowed_exponent_sum_max": 33,
+      "b": 6,
+      "base_complexity": 6,
+      "closest_miss": {
+        "abs_gap": 14308075659188532,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 4,
+          "mod243": 75,
+          "mod64": 52,
+          "mod81": 75,
+          "sign": "positive",
+          "v2": 2,
+          "v3": 1,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          0,
+          8
+        ],
+        "signed_gap": 14308075659188532,
+        "tuples_evaluated": 66045,
+        "value": 3706322850293446
+      },
+      "declared_tuple_search_space": 66045,
+      "degree": 4,
+      "m": 54,
+      "pair_index": 1,
+      "polynomial": "((((2)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "closest_miss": {
+        "abs_gap": 515834760627486,
+        "e": 2,
+        "gap_pattern": {
+          "mod16": 14,
+          "mod243": 171,
+          "mod64": 30,
+          "mod81": 9,
+          "sign": "negative",
+          "v2": 1,
+          "v3": 2,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          10
+        ],
+        "signed_gap": -515834760627486,
+        "tuples_evaluated": 27440,
+        "value": 18530233270109469
+      },
+      "declared_tuple_search_space": 27440,
+      "degree": 3,
+      "m": 54,
+      "pair_index": 76,
+      "polynomial": "(((10)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P0)))"
+    },
+    {
+      "N": 2251799813685240,
+      "allowed_exponent_sum_max": 30,
+      "b": 8,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 836619469677660,
+        "e": 1,
+        "gap_pattern": {
+          "mod16": 12,
+          "mod243": 183,
+          "mod64": 28,
+          "mod81": 21,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 1,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          0,
+          0,
+          10
+        ],
+        "signed_gap": -836619469677660,
+        "tuples_evaluated": 14911,
+        "value": 3088419283362900
+      },
+      "declared_tuple_search_space": 14911,
+      "degree": 3,
+      "m": 51,
+      "pair_index": 1435,
+      "polynomial": "((5((1)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0))))"
+    },
+    {
+      "N": 72057594037927927,
+      "allowed_exponent_sum_max": 34,
+      "b": 9,
+      "base_complexity": 6,
+      "closest_miss": {
+        "abs_gap": 22026048551507728,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 73,
+          "mod64": 16,
+          "mod81": 73,
+          "sign": "positive",
+          "v2": 4,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          0,
+          17,
+          0
+        ],
+        "signed_gap": 22026048551507728,
+        "tuples_evaluated": 7770,
+        "value": 50031545486420199
+      },
+      "declared_tuple_search_space": 7770,
+      "degree": 3,
+      "m": 56,
+      "pair_index": 179493,
+      "polynomial": "(((1)3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(P0))*A(P0))"
+    },
+    {
+      "N": 72057594037927930,
+      "allowed_exponent_sum_max": 34,
+      "b": 6,
+      "base_complexity": 8,
+      "closest_miss": {
+        "abs_gap": 338849691624150,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 6,
+          "mod243": 6,
+          "mod64": 22,
+          "mod81": 6,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 1,
+          "v5": 2,
+          "v7": 1
+        },
+        "k": [
+          29,
+          2,
+          3
+        ],
+        "signed_gap": 338849691624150,
+        "tuples_evaluated": 7770,
+        "value": 71718744346303780
+      },
+      "declared_tuple_search_space": 7770,
+      "degree": 3,
+      "m": 56,
+      "pair_index": 182527,
+      "polynomial": "((1)3^_+1)((2)3^_+1)((2)3^_+1)",
+      "shape": "P(A(P0)*A(P0)*A(P0))"
+    },
+    {
+      "N": 2251799813685240,
+      "allowed_exponent_sum_max": 30,
+      "b": 8,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 55627738008840,
+        "e": 2,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 162,
+          "mod64": 8,
+          "mod81": 0,
+          "sign": "positive",
+          "v2": 3,
+          "v3": 4,
+          "v5": 1,
+          "v7": 0
+        },
+        "k": [
+          27,
+          1
+        ],
+        "signed_gap": 55627738008840,
+        "tuples_evaluated": 1396,
+        "value": 2196172075676400
+      },
+      "declared_tuple_search_space": 1396,
+      "degree": 2,
+      "m": 51,
+      "pair_index": 190943,
+      "polynomial": "((2)3^_+1)((5)3^_+1)",
+      "shape": "P(A(P0)*A(P0))"
+    },
+    {
+      "N": 72057594037927930,
+      "allowed_exponent_sum_max": 33,
+      "b": 6,
+      "base_complexity": 9,
+      "closest_miss": {
+        "abs_gap": 5348867239261648,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 0,
+          "mod243": 73,
+          "mod64": 16,
+          "mod81": 73,
+          "sign": "positive",
+          "v2": 4,
+          "v3": 0,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          33,
+          0
+        ],
+        "signed_gap": 5348867239261648,
+        "tuples_evaluated": 595,
+        "value": 66708726798666282
+      },
+      "declared_tuple_search_space": 595,
+      "degree": 2,
+      "m": 56,
+      "pair_index": 190943,
+      "polynomial": "((2)3^_+1)((5)3^_+1)",
+      "shape": "P(A(P0)*A(P0))"
+    },
+    {
+      "N": 72057594037927927,
+      "allowed_exponent_sum_max": 33,
+      "b": 9,
+      "base_complexity": 11,
+      "closest_miss": {
+        "abs_gap": 51674371487043734,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 6,
+          "mod243": 65,
+          "mod64": 22,
+          "mod81": 65,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 0,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          0,
+          16
+        ],
+        "signed_gap": 51674371487043734,
+        "tuples_evaluated": 595,
+        "value": 20383222550884193
+      },
+      "declared_tuple_search_space": 595,
+      "degree": 2,
+      "m": 56,
+      "pair_index": 640428,
+      "polynomial": "11(((1)3^_+1)3^_+1)",
+      "shape": "P(A(A(P0)))"
+    },
+    {
+      "N": 2251799813685240,
+      "allowed_exponent_sum_max": 29,
+      "b": 8,
+      "base_complexity": 12,
+      "closest_miss": {
+        "abs_gap": 150263394085672,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 8,
+          "mod243": 187,
+          "mod64": 40,
+          "mod81": 25,
+          "sign": "negative",
+          "v2": 3,
+          "v3": 0,
+          "v5": 0,
+          "v7": 1
+        },
+        "k": [
+          29
+        ],
+        "signed_gap": -150263394085672,
+        "tuples_evaluated": 87,
+        "value": 2402063207770912
+      },
+      "declared_tuple_search_space": 87,
+      "degree": 1,
+      "m": 51,
+      "pair_index": 524012,
+      "polynomial": "7((5)3^_+1)",
+      "shape": "P(A(P0))"
+    },
+    {
+      "N": 18014398509481978,
+      "allowed_exponent_sum_max": 30,
+      "b": 6,
+      "base_complexity": 16,
+      "closest_miss": {
+        "abs_gap": 2572563602383302,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 6,
+          "mod243": 75,
+          "mod64": 6,
+          "mod81": 75,
+          "sign": "positive",
+          "v2": 1,
+          "v3": 1,
+          "v5": 0,
+          "v7": 0
+        },
+        "k": [
+          30
+        ],
+        "signed_gap": 2572563602383302,
+        "tuples_evaluated": 31,
+        "value": 15441834907098676
+      },
+      "declared_tuple_search_space": 31,
+      "degree": 1,
+      "m": 54,
+      "pair_index": 43885,
+      "polynomial": "(75)3^_+1",
+      "shape": "A(P0)"
+    },
+    {
+      "N": 18014398509481975,
+      "allowed_exponent_sum_max": 29,
+      "b": 9,
+      "base_complexity": 19,
+      "closest_miss": {
+        "abs_gap": 1064846397955500,
+        "e": 0,
+        "gap_pattern": {
+          "mod16": 12,
+          "mod243": 171,
+          "mod64": 44,
+          "mod81": 9,
+          "sign": "negative",
+          "v2": 2,
+          "v3": 2,
+          "v5": 3,
+          "v7": 0
+        },
+        "k": [
+          29
+        ],
+        "signed_gap": -1064846397955500,
+        "tuples_evaluated": 30,
+        "value": 19079244907437475
+      },
+      "declared_tuple_search_space": 30,
+      "degree": 1,
+      "m": 54,
+      "pair_index": 61214,
+      "polynomial": "(278)3^_+1",
+      "shape": "A(P0)"
+    }
+  ],
+  "closest_miss_sampling_policy": {
+    "full_sweep_feasible": false,
+    "reason": "The hard-case file contains 258,136 cases. This exploratory run evaluates exact closest misses for the union of the 20 largest search spaces, one representative from each top-20 shape signature, and one representative from each degree/b stratum.",
+    "sample_count": 53
+  },
+  "proposed_hard_core_normal_forms": [
+    {
+      "degree": 2,
+      "equation_class": "bilinear",
+      "hard_case_count": 36561,
+      "name": "NF1",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "P(A(P0)*A(P0))",
+      "typical_exponent_sum_bound": {
+        "max": 34,
+        "median": 23,
+        "min": 13
+      },
+      "typical_tuple_search_space": {
+        "max": 2330,
+        "median": 435,
+        "min": 120
+      }
+    },
+    {
+      "degree": 2,
+      "equation_class": "bilinear",
+      "hard_case_count": 31079,
+      "name": "NF2",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "A(P(A(P0)))",
+      "typical_exponent_sum_bound": {
+        "max": 34,
+        "median": 24,
+        "min": 14
+      },
+      "typical_tuple_search_space": {
+        "max": 2485,
+        "median": 465,
+        "min": 120
+      }
+    },
+    {
+      "degree": 3,
+      "equation_class": "higher_multilinear",
+      "hard_case_count": 23552,
+      "name": "NF3",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "P(A(P0)*A(P(A(P0))))",
+      "typical_exponent_sum_bound": {
+        "max": 34,
+        "median": 25.0,
+        "min": 17
+      },
+      "typical_tuple_search_space": {
+        "max": 27440,
+        "median": 4495.0,
+        "min": 1140
+      }
+    },
+    {
+      "degree": 3,
+      "equation_class": "higher_multilinear",
+      "hard_case_count": 19157,
+      "name": "NF4",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "P(A(P(A(P0)))*A(P0))",
+      "typical_exponent_sum_bound": {
+        "max": 33,
+        "median": 26,
+        "min": 18
+      },
+      "typical_tuple_search_space": {
+        "max": 27440,
+        "median": 4495,
+        "min": 1330
+      }
+    },
+    {
+      "degree": 3,
+      "equation_class": "higher_multilinear",
+      "hard_case_count": 12919,
+      "name": "NF5",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "P(A(A(P0))*A(P0))",
+      "typical_exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "typical_tuple_search_space": {
+        "max": 24955,
+        "median": 4495,
+        "min": 1330
+      }
+    },
+    {
+      "degree": 3,
+      "equation_class": "higher_multilinear",
+      "hard_case_count": 12861,
+      "name": "NF6",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "A(P(A(P(A(P0)))))",
+      "typical_exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 19
+      },
+      "typical_tuple_search_space": {
+        "max": 27440,
+        "median": 4960,
+        "min": 1540
+      }
+    },
+    {
+      "degree": 2,
+      "equation_class": "bilinear",
+      "hard_case_count": 12740,
+      "name": "NF7",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "P(A(P(A(P0))))",
+      "typical_exponent_sum_bound": {
+        "max": 31,
+        "median": 23.0,
+        "min": 14
+      },
+      "typical_tuple_search_space": {
+        "max": 2330,
+        "median": 484.0,
+        "min": 120
+      }
+    },
+    {
+      "degree": 3,
+      "equation_class": "higher_multilinear",
+      "hard_case_count": 12309,
+      "name": "NF8",
+      "proof_mining_note": "Candidate hard-core family; inspect whether a uniform congruence, divisibility, or monotone gap argument can replace explicit exponent enumeration.",
+      "shape": "A(P(A(P0)*A(P0)))",
+      "typical_exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "typical_tuple_search_space": {
+        "max": 27440,
+        "median": 4900,
+        "min": 1330
+      }
+    },
+    {
+      "degree": null,
+      "equation_class": "mixed",
+      "hard_case_count": 133115,
+      "name": "NF9",
+      "proof_mining_note": "Cases surviving both mod 256 and mod 729 are the natural residual hard core after the first stronger-modulus experiment.",
+      "shape": "modulus-upgrade residual"
+    }
+  ],
+  "scope": "representative hard cases and sampled exact closest misses",
+  "top_20_largest_exponent_search_spaces": [
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 33,
+      "b": 1,
+      "base_complexity": 7,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 264606,
+      "m": 54,
+      "pair_index": 0,
+      "polynomial": "((((3)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 4,
+      "polynomial": "((((7)3^_+1)3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 18,
+      "polynomial": "(((3((3)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 37,
+      "polynomial": "(((2((4)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 8,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 463,
+      "polynomial": "((((2)3^_+1)((2)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 464,
+      "polynomial": "((((2)3^_+1)((4)3^_+1))3^_+1)3^_+1",
+      "shape": "A(A(P(A(P0)*A(P0))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9389,
+      "polynomial": "(3((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9402,
+      "polynomial": "((((3)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9432,
+      "polynomial": "((((2)3^_+1)3^_+1)((3)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 9434,
+      "polynomial": "((((2)3^_+1)3^_+1)((4)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P0))*A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 9,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14801,
+      "polynomial": "(2((((3)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 8,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14802,
+      "polynomial": "(2((((2)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14803,
+      "polynomial": "(2((((4)3^_+1)3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 14854,
+      "polynomial": "(2(((2((2)3^_+1))3^_+1)3^_+1))3^_+1",
+      "shape": "A(P(A(A(P(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 16125,
+      "polynomial": "(2((2(((2)3^_+1)3^_+1))3^_+1))3^_+1",
+      "shape": "A(P(A(P(A(A(P0))))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 179384,
+      "polynomial": "((((2)3^_+1)3^_+1)3^_+1)((4)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 179396,
+      "polynomial": "((((4)3^_+1)3^_+1)3^_+1)((2)3^_+1)",
+      "shape": "P(A(A(A(P0)))*A(P0))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 179445,
+      "polynomial": "(((3)3^_+1)3^_+1)(((3)3^_+1)3^_+1)",
+      "shape": "P(A(A(P0))*A(A(P0)))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 32,
+      "b": 1,
+      "base_complexity": 10,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 234521,
+      "m": 54,
+      "pair_index": 190502,
+      "polynomial": "((2)3^_+1)((2(((2)3^_+1)3^_+1))3^_+1)",
+      "shape": "P(A(P0)*A(P(A(A(P0)))))"
+    },
+    {
+      "N": 18014398509481983,
+      "allowed_exponent_sum_max": 31,
+      "b": 1,
+      "base_complexity": 13,
+      "degree": 4,
+      "equation_class_after_freezing": "higher_multilinear",
+      "exponent_tuples_checked": 207081,
+      "m": 54,
+      "pair_index": 22,
+      "polynomial": "(((3((7)3^_+1))3^_+1)3^_+1)3^_+1",
+      "shape": "A(A(A(P(A(P0)))))"
+    }
+  ],
+  "top_20_shape_signatures": [
+    {
+      "count": 36561,
+      "degree_counts": {
+        "2": 36561
+      },
+      "equation_class_counts": {
+        "bilinear": 36561
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 23,
+        "min": 13
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)((4)3^_+1)",
+        "((3)3^_+1)((4)3^_+1)",
+        "((1)3^_+1)((5)3^_+1)"
+      ],
+      "shape": "P(A(P0)*A(P0))",
+      "tuple_search_space": {
+        "max": 2330,
+        "median": 435,
+        "min": 120
+      }
+    },
+    {
+      "count": 31079,
+      "degree_counts": {
+        "2": 31079
+      },
+      "equation_class_counts": {
+        "bilinear": 31079
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 24,
+        "min": 14
+      },
+      "representative_polynomials": [
+        "(3((9)3^_+1))3^_+1",
+        "(9((27)3^_+1))3^_+1",
+        "(9((3)3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(P0)))",
+      "tuple_search_space": {
+        "max": 2485,
+        "median": 465,
+        "min": 120
+      }
+    },
+    {
+      "count": 23552,
+      "degree_counts": {
+        "3": 23552
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 23552
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 25.0,
+        "min": 17
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)((3((3)3^_+1))3^_+1)",
+        "((3)3^_+1)((3((1)3^_+1))3^_+1)",
+        "((3)3^_+1)((3((3)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P0)*A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4495.0,
+        "min": 1140
+      }
+    },
+    {
+      "count": 19157,
+      "degree_counts": {
+        "3": 19157
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 19157
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "((2((1)3^_+1))3^_+1)((3)3^_+1)",
+        "((2((3)3^_+1))3^_+1)((3)3^_+1)",
+        "((2((5)3^_+1))3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0)))*A(P0))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4495,
+        "min": 1330
+      }
+    },
+    {
+      "count": 12919,
+      "degree_counts": {
+        "3": 12919
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 12919
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "(((1)3^_+1)3^_+1)((3)3^_+1)",
+        "(((3)3^_+1)3^_+1)((1)3^_+1)",
+        "(((3)3^_+1)3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(A(P0))*A(P0))",
+      "tuple_search_space": {
+        "max": 24955,
+        "median": 4495,
+        "min": 1330
+      }
+    },
+    {
+      "count": 12861,
+      "degree_counts": {
+        "3": 12861
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 12861
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 19
+      },
+      "representative_polynomials": [
+        "(3((3((1)3^_+1))3^_+1))3^_+1",
+        "(3((3((18)3^_+1))3^_+1))3^_+1",
+        "(3((9((2)3^_+1))3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(P(A(P0)))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4960,
+        "min": 1540
+      }
+    },
+    {
+      "count": 12740,
+      "degree_counts": {
+        "2": 12740
+      },
+      "equation_class_counts": {
+        "bilinear": 12740
+      },
+      "exponent_sum_bound": {
+        "max": 31,
+        "median": 23.0,
+        "min": 14
+      },
+      "representative_polynomials": [
+        "81((2((20)3^_+1))3^_+1)",
+        "3((2((43)3^_+1))3^_+1)",
+        "9((2((97)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 2330,
+        "median": 484.0,
+        "min": 120
+      }
+    },
+    {
+      "count": 12309,
+      "degree_counts": {
+        "3": 12309
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 12309
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "(((1)3^_+1)((3)3^_+1))3^_+1",
+        "(((3)3^_+1)((3)3^_+1))3^_+1",
+        "(((1)3^_+1)((2)3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(P0)*A(P0)))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4900,
+        "min": 1330
+      }
+    },
+    {
+      "count": 11690,
+      "degree_counts": {
+        "3": 11690
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 11690
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 25.0,
+        "min": 17
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)((3)3^_+1)((3)3^_+1)",
+        "((3)3^_+1)((3)3^_+1)((3)3^_+1)",
+        "((1)3^_+1)((2)3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(P0)*A(P0)*A(P0))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4495.0,
+        "min": 1330
+      }
+    },
+    {
+      "count": 7140,
+      "degree_counts": {
+        "3": 7140
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 7140
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 25.0,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "3((((3)3^_+1)((256)3^_+1))3^_+1)",
+        "9((((2)3^_+1)((32)3^_+1))3^_+1)",
+        "3((((2)3^_+1)((128)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0)*A(P0))))",
+      "tuple_search_space": {
+        "max": 24955,
+        "median": 4324.0,
+        "min": 1330
+      }
+    },
+    {
+      "count": 6784,
+      "degree_counts": {
+        "1": 6784
+      },
+      "equation_class_counts": {
+        "linear": 6784
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 22.0,
+        "min": 13
+      },
+      "representative_polynomials": [
+        "(7)3^_+1",
+        "(10)3^_+1",
+        "(14)3^_+1"
+      ],
+      "shape": "A(P0)",
+      "tuple_search_space": {
+        "max": 140,
+        "median": 26.0,
+        "min": 15
+      }
+    },
+    {
+      "count": 5866,
+      "degree_counts": {
+        "3": 5866
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 5866
+      },
+      "exponent_sum_bound": {
+        "max": 32,
+        "median": 25.0,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "9((2((3((32)3^_+1))3^_+1))3^_+1)",
+        "3((2((3((128)3^_+1))3^_+1))3^_+1)",
+        "9((2((2((16)3^_+1))3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(P(A(P(A(P0))))))",
+      "tuple_search_space": {
+        "max": 22625,
+        "median": 4900.0,
+        "min": 1330
+      }
+    },
+    {
+      "count": 5541,
+      "degree_counts": {
+        "3": 5541
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 5541
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 26,
+        "min": 18
+      },
+      "representative_polynomials": [
+        "((3((1)3^_+1))3^_+1)3^_+1",
+        "((9((3)3^_+1))3^_+1)3^_+1",
+        "((3((2)3^_+1))3^_+1)3^_+1"
+      ],
+      "shape": "A(A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 4060,
+        "min": 1330
+      }
+    },
+    {
+      "count": 3770,
+      "degree_counts": {
+        "3": 3770
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 3770
+      },
+      "exponent_sum_bound": {
+        "max": 32,
+        "median": 25.0,
+        "min": 19
+      },
+      "representative_polynomials": [
+        "3(((3((256)3^_+1))3^_+1)3^_+1)",
+        "9(((2((32)3^_+1))3^_+1)3^_+1)",
+        "3(((2((128)3^_+1))3^_+1)3^_+1)"
+      ],
+      "shape": "P(A(A(P(A(P0)))))",
+      "tuple_search_space": {
+        "max": 22625,
+        "median": 4900.0,
+        "min": 1540
+      }
+    },
+    {
+      "count": 3724,
+      "degree_counts": {
+        "2": 3724
+      },
+      "equation_class_counts": {
+        "bilinear": 3724
+      },
+      "exponent_sum_bound": {
+        "max": 35,
+        "median": 24.0,
+        "min": 14
+      },
+      "representative_polynomials": [
+        "((1)3^_+1)3^_+1",
+        "((3)3^_+1)3^_+1",
+        "((2)3^_+1)3^_+1"
+      ],
+      "shape": "A(A(P0))",
+      "tuple_search_space": {
+        "max": 2035,
+        "median": 400.0,
+        "min": 120
+      }
+    },
+    {
+      "count": 3373,
+      "degree_counts": {
+        "3": 3373
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 3373
+      },
+      "exponent_sum_bound": {
+        "max": 34,
+        "median": 27,
+        "min": 20
+      },
+      "representative_polynomials": [
+        "(3(((1)3^_+1)3^_+1))3^_+1",
+        "(9(((3)3^_+1)3^_+1))3^_+1",
+        "(3(((6)3^_+1)3^_+1))3^_+1"
+      ],
+      "shape": "A(P(A(A(P0))))",
+      "tuple_search_space": {
+        "max": 27440,
+        "median": 5525,
+        "min": 1771
+      }
+    },
+    {
+      "count": 3056,
+      "degree_counts": {
+        "4": 3056
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 3056
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 28.0,
+        "min": 23
+      },
+      "representative_polynomials": [
+        "(((3)3^_+1)3^_+1)((3((3)3^_+1))3^_+1)",
+        "(((3)3^_+1)3^_+1)((3((2)3^_+1))3^_+1)",
+        "(((3)3^_+1)3^_+1)((3((4)3^_+1))3^_+1)"
+      ],
+      "shape": "P(A(A(P0))*A(P(A(P0))))",
+      "tuple_search_space": {
+        "max": 207081,
+        "median": 40920.0,
+        "min": 17550
+      }
+    },
+    {
+      "count": 2703,
+      "degree_counts": {
+        "4": 2703
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 2703
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 28,
+        "min": 23
+      },
+      "representative_polynomials": [
+        "((((3)3^_+1)((3)3^_+1))3^_+1)((3)3^_+1)",
+        "((((2)3^_+1)((3)3^_+1))3^_+1)((3)3^_+1)",
+        "((((3)3^_+1)((4)3^_+1))3^_+1)((3)3^_+1)"
+      ],
+      "shape": "P(A(P(A(P0)*A(P0)))*A(P0))",
+      "tuple_search_space": {
+        "max": 207081,
+        "median": 40920,
+        "min": 17550
+      }
+    },
+    {
+      "count": 2634,
+      "degree_counts": {
+        "4": 2634
+      },
+      "equation_class_counts": {
+        "higher_multilinear": 2634
+      },
+      "exponent_sum_bound": {
+        "max": 33,
+        "median": 28.0,
+        "min": 23
+      },
+      "representative_polynomials": [
+        "(((3((3)3^_+1))3^_+1)3^_+1)((3)3^_+1)",
+        "(((3((3)3^_+1))3^_+1)3^_+1)((2)3^_+1)",
+        "(((3((3)3^_+1))3^_+1)3^_+1)((4)3^_+1)"
+      ],
+      "shape": "P(A(A(P(A(P0))))*A(P0))",
+      "tuple_search_space": {
+        "max": 207081,
+        "median": 44226.0,
+        "min": 17550
+      }
+    },
+    {
+      "count": 2593,
+      "degree_counts": {
+        "1": 2593
+      },
+      "equation_class_counts": {
+        "linear": 2593
+      },
+      "exponent_sum_bound": {
+        "max": 30,
+        "median": 22,
+        "min": 12
+      },
+      "representative_polynomials": [
+        "81((2)3^_+1)",
+        "81((20)3^_+1)",
+        "81((52)3^_+1)"
+      ],
+      "shape": "P(A(P0))",
+      "tuple_search_space": {
+        "max": 140,
+        "median": 43,
+        "min": 15
+      }
+    }
+  ]
+}

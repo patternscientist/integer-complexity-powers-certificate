@@ -1,0 +1,245 @@
+{
+  "moduli": {
+    "16": {
+      "image_size": {
+        "max": 8,
+        "median": 3.0,
+        "min": 1
+      },
+      "killed": 0,
+      "target_possible": 258136,
+      "witness_e_count": {
+        "max": 5,
+        "median": 1.0,
+        "min": 1
+      }
+    },
+    "243": {
+      "image_size": {
+        "max": 210,
+        "median": 49.0,
+        "min": 2
+      },
+      "killed": 0,
+      "target_possible": 258136,
+      "witness_e_count": {
+        "max": 5,
+        "median": 1.0,
+        "min": 1
+      }
+    },
+    "256": {
+      "image_size": {
+        "max": 128,
+        "median": 48.0,
+        "min": 1
+      },
+      "killed": 13612,
+      "target_possible": 244524,
+      "witness_e_count": {
+        "max": 5,
+        "median": 1.0,
+        "min": 0
+      }
+    },
+    "64": {
+      "image_size": {
+        "max": 32,
+        "median": 12.0,
+        "min": 1
+      },
+      "killed": 0,
+      "target_possible": 258136,
+      "witness_e_count": {
+        "max": 5,
+        "median": 1.0,
+        "min": 1
+      }
+    },
+    "729": {
+      "image_size": {
+        "max": 535,
+        "median": 78.0,
+        "min": 3
+      },
+      "killed": 118807,
+      "target_possible": 139329,
+      "witness_e_count": {
+        "max": 5,
+        "median": 1.0,
+        "min": 0
+      }
+    },
+    "81": {
+      "image_size": {
+        "max": 79,
+        "median": 26.0,
+        "min": 1
+      },
+      "killed": 0,
+      "target_possible": 258136,
+      "witness_e_count": {
+        "max": 5,
+        "median": 1.0,
+        "min": 1
+      }
+    }
+  },
+  "previous_modular_filter": {
+    "explanation": "For each hard case and each previous modulus, at least one allowed top exponent e has N/3^e in the residue image of f under the remaining exponent budget.",
+    "hard_cases_survived_all_previous_moduli": true,
+    "moduli": [
+      16,
+      64,
+      81,
+      243
+    ]
+  },
+  "upgrade_counts": {
+    "killed_by_256_only": 6214,
+    "killed_by_729_only": 111409,
+    "killed_by_both_256_and_729": 7398,
+    "survives_256_and_729": 133115
+  },
+  "upgrade_counts_by_degree": {
+    "1": {
+      "killed_by_256_only": 828,
+      "killed_by_729_only": 4653,
+      "killed_by_both_256_and_729": 1495,
+      "survives_256_and_729": 2401
+    },
+    "2": {
+      "killed_by_256_only": 2640,
+      "killed_by_729_only": 43481,
+      "killed_by_both_256_and_729": 3634,
+      "survives_256_and_729": 36627
+    },
+    "3": {
+      "killed_by_256_only": 2550,
+      "killed_by_729_only": 51226,
+      "killed_by_both_256_and_729": 2165,
+      "survives_256_and_729": 65868
+    },
+    "4": {
+      "killed_by_256_only": 196,
+      "killed_by_729_only": 12049,
+      "killed_by_both_256_and_729": 104,
+      "survives_256_and_729": 28219
+    }
+  },
+  "upgrade_counts_by_shape_top20": {
+    "A(A(P(A(P0))))": {
+      "killed_by_256_only": 178,
+      "killed_by_729_only": 2605,
+      "killed_by_both_256_and_729": 201,
+      "survives_256_and_729": 2557
+    },
+    "A(A(P0))": {
+      "killed_by_256_only": 107,
+      "killed_by_729_only": 1830,
+      "killed_by_both_256_and_729": 221,
+      "survives_256_and_729": 1566
+    },
+    "A(P(A(A(P0))))": {
+      "killed_by_256_only": 2,
+      "killed_by_729_only": 1461,
+      "survives_256_and_729": 1910
+    },
+    "A(P(A(P(A(P0)))))": {
+      "killed_by_256_only": 150,
+      "killed_by_729_only": 5613,
+      "killed_by_both_256_and_729": 127,
+      "survives_256_and_729": 6971
+    },
+    "A(P(A(P0)))": {
+      "killed_by_256_only": 381,
+      "killed_by_729_only": 15922,
+      "killed_by_both_256_and_729": 530,
+      "survives_256_and_729": 14246
+    },
+    "A(P(A(P0)*A(P0)))": {
+      "killed_by_256_only": 41,
+      "killed_by_729_only": 4975,
+      "killed_by_both_256_and_729": 21,
+      "survives_256_and_729": 7272
+    },
+    "A(P0)": {
+      "killed_by_256_only": 588,
+      "killed_by_729_only": 3401,
+      "killed_by_both_256_and_729": 1069,
+      "survives_256_and_729": 1726
+    },
+    "P(A(A(P(A(P0)))))": {
+      "killed_by_256_only": 70,
+      "killed_by_729_only": 2019,
+      "killed_by_both_256_and_729": 39,
+      "survives_256_and_729": 1642
+    },
+    "P(A(A(P(A(P0))))*A(P0))": {
+      "killed_by_729_only": 877,
+      "survives_256_and_729": 1757
+    },
+    "P(A(A(P0))*A(P(A(P0))))": {
+      "killed_by_729_only": 874,
+      "survives_256_and_729": 2182
+    },
+    "P(A(A(P0))*A(P0))": {
+      "killed_by_256_only": 117,
+      "killed_by_729_only": 5763,
+      "killed_by_both_256_and_729": 75,
+      "survives_256_and_729": 6964
+    },
+    "P(A(P(A(P(A(P0))))))": {
+      "killed_by_256_only": 246,
+      "killed_by_729_only": 2691,
+      "killed_by_both_256_and_729": 316,
+      "survives_256_and_729": 2613
+    },
+    "P(A(P(A(P0))))": {
+      "killed_by_256_only": 502,
+      "killed_by_729_only": 6803,
+      "killed_by_both_256_and_729": 752,
+      "survives_256_and_729": 4683
+    },
+    "P(A(P(A(P0)))*A(P0))": {
+      "killed_by_256_only": 272,
+      "killed_by_729_only": 7487,
+      "killed_by_both_256_and_729": 232,
+      "survives_256_and_729": 11166
+    },
+    "P(A(P(A(P0)*A(P0))))": {
+      "killed_by_256_only": 132,
+      "killed_by_729_only": 3479,
+      "killed_by_both_256_and_729": 144,
+      "survives_256_and_729": 3385
+    },
+    "P(A(P(A(P0)*A(P0)))*A(P0))": {
+      "killed_by_729_only": 700,
+      "survives_256_and_729": 2003
+    },
+    "P(A(P0))": {
+      "killed_by_256_only": 240,
+      "killed_by_729_only": 1252,
+      "killed_by_both_256_and_729": 426,
+      "survives_256_and_729": 675
+    },
+    "P(A(P0)*A(P(A(P0))))": {
+      "killed_by_256_only": 1064,
+      "killed_by_729_only": 9098,
+      "killed_by_both_256_and_729": 829,
+      "survives_256_and_729": 12561
+    },
+    "P(A(P0)*A(P0))": {
+      "killed_by_256_only": 1603,
+      "killed_by_729_only": 17611,
+      "killed_by_both_256_and_729": 2054,
+      "survives_256_and_729": 15293
+    },
+    "P(A(P0)*A(P0)*A(P0))": {
+      "killed_by_256_only": 255,
+      "killed_by_729_only": 4245,
+      "killed_by_both_256_and_729": 165,
+      "survives_256_and_729": 7025
+    }
+  }
+}
